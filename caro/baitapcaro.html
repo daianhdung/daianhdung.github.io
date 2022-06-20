@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgba(226, 140, 140, 0.8);
+        }
+        #wrapper {
+            width: 804px;
+            height: 500px;
+            margin: auto;
+        }
+        .square {
+            width: 20px;
+            height: 20px;
+            background-color: rgba(233, 255, 255, 0.7);
+            border: 1px solid #333;
+            float: left;
+            text-align: center;
+            cursor: pointer;
+            line-height: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <input type="text" style="width: 50px; height:25px; border: .1px solid black; outline: none;">
+    <button>SET</button>
+    <div>
+        <button id="one">Size 1</button>
+        <button id="two">Size 2</button>
+        <button id="three">Size 3</button>
+        <button id="four">Size 4</button>
+    </div>
+    <div id="wrapper">
+        <div class='square'></div>
+    </div>
+    <script type="text/javascript" src="./jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready( function () {
+            for(var i = 0; i < 1008; i++){
+                $("#wrapper").append("<div class='square'></div>");
+            }
+            var count = 1;
+            $('#one').click( function (){
+                $('#wrapper').css("width", '300px');
+                $('#wrapper').css("height", '287px');
+                $('#wrapper').css('overflow', 'hidden');
+            })
+            // var squareCount = 0
+            // $('#one').click(function () {
+            //     $('#wrapper').css("width", '300px')
+            //     if(squareCount < 156){
+            //         for(var i = 0; i < 156; i++){
+            //         $("#wrapper").append("<div class='square'></div>");
+            //         squareCount += 1;
+            //         console.log(squareCount);
+            //     }
+            // }
+            // })
+            // $('#two').click(function () {
+            //     $('#wrapper').css("width", '500px')
+            //     if(squareCount < 352){
+            //         for(var i = 0; i < 352; i++){
+            //         $("#wrapper").append("<div class='square'></div>");
+            //         squareCount += 1;
+            //         console.log(squareCount);
+            //     }
+            // }
+            // })
+            $('.square').click(function (){
+                if($(this).html() == ""){
+                    count += 1;
+                    if(count % 2 == 0){
+                    $(this).html("X")
+                    }else {
+                        $(this).html("O")
+                    }
+                }else{
+                    alert("Ai cho ăn gian :>")
+                }
+
+            })
+            $('.square').mouseover(function (){
+                $(this).css("opacity", "0.3")
+            })
+            $('.square').mouseout(function (){
+                $(this).css("opacity", "1")
+            })
+        })
+    </script>
+
+</body>
+</html>
