@@ -1,0 +1,71 @@
+:root {
+    --background-color: rgb(26, 148, 255);
+    --text-color: white;
+    --button-color:rgb(13, 92, 182);
+}
+
+
+.blue-theme {
+    --background-color: rgb(26, 148, 255);
+    --text-color: white;
+    --button-color:rgb(13, 92, 182);
+}
+
+.red-theme {
+    --background-color: linear-gradient(0, #fe6132, #f5402d);
+    --text-color: white;
+    --button-color:#f86b5b;
+}
+
+.color-switcher {
+    position: relative;
+}
+.btn-change-color,
+.btn-change-language {
+    color: var(--text-color);
+    font-size: 13px;
+    line-height: 25px;
+    cursor: pointer;
+    border: none;
+    border-style: none;
+}
+
+.btn-style-color,
+.btn-style-language {
+    display: block;
+    padding: 10px;
+    background-color: var(--text-color);
+    color: #333;
+}
+.btn-style-color:hover ,
+.btn-style-language:hover {
+    background-color: var(--button-color);
+    color: var(--text-color);
+}
+
+.container-choose-language,
+.container-choose-color {
+    position: absolute;
+    width: 100px;
+    display: none;
+}
+
+.btn-change-color:hover 
+.container-choose-color {
+    display: block;
+}
+
+.btn-change-language:hover
+.container-choose-language {
+    display: block;
+}
+
+.btn {
+    width: 100px;
+    height: 36px;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+}

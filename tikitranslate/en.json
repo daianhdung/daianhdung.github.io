@@ -1,0 +1,48 @@
+{
+  "head": {
+      "title": "English"
+  },
+  "body": {
+  },
+  ".input-form":{
+    "search": "Searching",
+    "place" : "Find the desired product, category or brand..."
+  },
+  ".user-click": {
+    "login-signup": "Login / Sign up"
+  },
+  ".account-label": {
+    "account": "Account"
+  },
+  ".cart-2": {
+    "cart" : "Cart"
+  },
+  ".list-item": {
+    "fruit": "Fruit",
+    "meal-egg": "meal-egg",
+    "vegetable" : "vegetable",
+    "milk-butter-cheese": "milk-butter-cheese",
+    "seafood" : "seafood",
+    "rice-noodle" : "rice-noodle",
+    "drinks-beer": "drinks-beer",
+    "candy": "candy"
+  },
+  ".btn-change-color": {
+    "changecolor" : "Change Color"
+  },
+  ".container-choose-color": {
+    "blue" : "Blue",
+    "red": "Red"
+  },
+  ".btn-change-language": {
+    "languages": "Languages"
+  },
+  ".container-choose-language": {
+    "vietnam" : "Vietnamese",
+    "english": "English"
+  },
+  ".button-custom": {
+    "sell": "Selling with Tiki"
+  }
+
+}

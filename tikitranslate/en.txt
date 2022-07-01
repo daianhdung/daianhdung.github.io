@@ -1,0 +1,90 @@
+<header id="main-header" class="main-header-attr">
+            <div class="container-top">
+                <div class="middle-child">
+                    <div class="left-side">
+                        <div class="logo-menu">
+                            <div class="style-logo">
+                                <img src="https://salt.tikicdn.com/ts/upload/ae/f5/15/2228f38cf84d1b8451bb49e2c4537081.png"
+                                    alt="tiki-logo">
+                            </div>
+                        </div>
+                        <div id="#1" class="block-form">
+                            <div class="input-form">
+                                <input type="text" placeholder="Find the desired product, category or brand ...">
+                                <button key="search" class="input-form-btn">
+                                    <img src="https://salt.tikicdn.com/ts/upload/ed/5e/b8/8538366274240326978318348ea8af7c.png"
+                                        alt="" class="search-icon">
+                                    Searching
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="login-side">
+                        <div class="user-btn">
+                            <img src="https://salt.tikicdn.com/ts/upload/67/de/1e/90e54b0a7a59948dd910ba50954c702e.png"
+                                alt="">
+                            <span class="user-click">
+                                <span key="login-signup">Login / Log out</span>
+                                <span class="account-label">
+                                    <span key="account">Account</span>
+                                    <i class="fa-solid fa-caret-down"></i>
+                                </span>
+                            </span>
+                        </div>
+                        <div class="cart-shopping">
+                            <a href="#" class="cart-1">
+                                <div class="cart-2">
+                                    <div class="cart-wrapper">
+                                        <img src="https://salt.tikicdn.com/ts/upload/40/44/6c/b80ad73e5e84aeb71c08e5d8d438eaa1.png"
+                                            alt="">
+                                        <span class="cart-number">0</span>
+                                    </div>
+                                    <span key="cart">Cart</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-root">
+                <div class="middle-bottom">
+                    <a href="" class="icon-freeship">
+                        <img src="https://salt.tikicdn.com/ts/upload/e5/1d/22/61ff572362f08ead7f34ce410a4a6f96.png"
+                            height="12" width="83" alt="">
+                    </a>
+                    <div class="list-item">
+                        <a key="fruit" href="" class="item-content">Fruit</a>
+                        <a key="meal-egg" href="" class="item-content">Meal, egg</a>
+                        <a key="vegetable" href="" class="item-content">vegetable</a>
+                        <a key="milk-butter-cheese" href="" class="item-content">milk, butter</a>
+                        <a key="seafood" href="" class="item-content">seafood</a>
+                        <a key="rice-noodle" href="" class="item-content">rice, noodle</a>
+                        <a key="drinks-beer" href="" class="item-content">drinks, beer</a>
+                        <a key="candy" href="" class="item-content">candy</a>
+                    </div>
+                    <div class="btn-change-color">
+                        <span key="changecolor" class="theme-color-change">Thay màu</span>
+                        <i class="fa-solid fa-caret-down"></i>
+                        <div class="container-choose-color">
+                            <span key="blue" class="btn-style-color" id="blue-theme">Blue</span>
+
+                            <span key="red" class="btn-style-color" id="red-theme">Red</span>
+                        </div>
+                    </div>
+                    <div class="btn-change-language">
+                        <span key="languages" class="language-change">Languages</span>
+                        <i class="fa-solid fa-caret-down"></i>
+                        <div class="container-choose-language">
+                            <button  key="vietnam" href="" class="btn-style-language btn">Việt
+                                Nam</button>
+                            <button  key="english" href="" class="btn-style-language btn">Tiếng
+                                Anh</button>
+                        </div>
+                    </div>
+                    <a href="" class="button-custom">
+                        <img src="https://frontend.tikicdn.com/_desktop-next/static/img/icon-seller.svg" alt="">
+                        <span key="sell">Sales with Tiki</span>
+                    </a>
+                </div>
+            </div>
+        </header>
