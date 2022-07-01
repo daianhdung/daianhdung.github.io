@@ -4,9 +4,8 @@
   },
   "body": {
   },
-  ".input-form":{
-    "search": "Tìm kiếm",
-    "place" : "Find the desired product, category or brand..."
+  ".input-form-btn":{
+    "search": "Tìm kiếm"
   },
   ".user-click": {
     "login-signup": "Đăng nhập / Đăng kí"

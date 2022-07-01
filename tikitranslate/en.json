@@ -4,9 +4,8 @@
   },
   "body": {
   },
-  ".input-form":{
-    "search": "Searching",
-    "place" : "Find the desired product, category or brand..."
+  ".input-form-btn":{
+    "search": "Searching"
   },
   ".user-click": {
     "login-signup": "Login / Sign up"
