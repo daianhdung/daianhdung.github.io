@@ -1,12 +1,1345 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./assest/base.css">
+    <script src="https://kit.fontawesome.com/803c089abd.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
+
 <body>
-    <div>HELLO</div>
+    <!-- Scroll to top -->
+    <div class="scrollToTop-btn flex-center">
+        <i class="fa-solid fa-angle-up"></i>
+    </div>
+
+    <header>
+        <div style="min-width: 100%; background-color: #f5f5f5;">
+            <div class="top-header container">
+                <div class="top-header-local">
+                    <div class="icon-local"><i class="fa-solid fa-location-dot"></i> Find a Store</div>
+                    <div class="icon-local"><i class="fa-solid fa-truck"></i> Order Tracking</div>
+                </div>
+                <div class="top-header-discount">
+                    <div class="btn-discount">15% Off</div>
+                    <span>$50+ when you buy online & pick up in-store</span>
+                </div>
+                <div class="top-header-languages">
+                    <span>USD <i class="fa-solid fa-angle-down"></i></span>
+                    <span>English <i class="fa-solid fa-angle-down"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="middle-header container">
+            <div class="logo">
+                <div class="style-logo">
+                    <img src="./assest/Homepage/logo.svg" alt="Lỗi">
+                </div>
+            </div>
+            <div class="search-input">
+                <input type="text" placeholder="Search products...">
+                <button class="btn-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="present">
+                <div class="free-ship flex-center">
+                    <i class="icon-present fa-solid fa-gift"></i>
+                    <span class="block-span">
+                        <span class="first-span">Free Shipping</span>
+                        <span class="second-span">Details & Restrictions</span>
+                    </span>
+                </div>
+                <div class="satisfac flex-center">
+                    <i class="icon-present fa-solid fa-circle-check"></i>
+                    <span class="block-span">
+                        <span class="first-span">100% Satisfaction</span>
+                        <span class="second-span">30 Days no hassle</span>
+                    </span>
+                </div>
+            </div>
+            <div class="icon-notify flex-center">
+                <div style="position: relative;">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div style="position: relative;">
+                    <i class="fa-solid fa-heart"></i>
+                    <span class="cart-number">10</span>
+                </div>
+                <div style="position: relative;">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cart-number">0</span>
+                </div>
+                <span style="margin-left: 15px; font-weight: 700;">$0.00</span>
+            </div>
+
+        </div>
+        <div class="bot-header container">
+            <div class="nav-item">
+                <div class="item-list active">
+                    <a href="">Home</a>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="item-list">
+                    <a href="./Products/index.html">Shop</a>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="item-list">
+                    <a href="./Details/index.html">Pages</a>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="item-list">
+                    <a href="#blog">Blog</a>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="item-list">
+                    <a href="#footer">Contact Us</a>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+            <div class="support">
+                <i class="fa-solid fa-phone"></i>
+                <span>24/7 Support: <span>(877) 834 1434</span></span>
+            </div>
+        </div>
+    </header>
+
+
+    <div style="min-width: 100%; background: #e4f7ff;">
+        <section class="main-banner flex-center container-main-banner">
+            <div class="main-banner-left">
+                <h1>New & Exclusive Dog Clothing</h1>
+                <p>Shop our new range of winter dog coats & jackets in-store or online.</p>
+                <span>Starting at</span>
+                <h2> $59.99</h2>
+                <div class="banner-bottom">
+                    <div class="btn-now flex-center">
+                        <button class="btn">Shop now</button>
+                        <i class="btn-icon fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="main-banner-right flex-center" style="height: 100%">
+                <img class="img3" src="./assest/Homepage/rev_home3_5.png" alt="">
+                <div class="dog-img flex-center">
+                    <img class="img1" src="./assest/Homepage/rev_home3.png" alt="">
+                    <div class="talk-span">
+                        <span>15%</span>
+                        <span>Offer</span>
+                    </div>
+                </div>
+                <img src="./assest/Homepage/rev_home3_6.png" alt="" class="img-bottom">
+                <div class="dog-item">
+                    <img style="transform: translateY(-30px);" src="./assest/Homepage/rev_home3_3.png" alt="">
+                    <img style="transform: translateX(100px);" src="./assest/Homepage/rev_home3_1.png" alt="">
+                    <img style="transform: translateY(-50px);" src="./assest/Homepage/rev_home3_4.png" alt="">
+                </div>
+                <div class="elementor-shape elementor-shape-top" data-negative="false">
+                    <svg style="position: absolute;" xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 1920 70">
+                        <g fill="currentColor" class="nc-icon-wrapper">
+                            <g transform="matrix(.1 0 0 -.1 0 70)" fill="currentColor" stroke="none">
+                                <path class="elementor-shape-fill"
+                                    d="M0 510V319l48 27c26 15 51 31 56 36 6 4 19 8 31 8 11 0 31 7 44 16 27 19 103 14 186-12 120-38 395-61 395-33 0 6-7 9-15 5-8-3-15 0-15 5 0 7 10 9 28 5 15-4 47-9 72-12s90-16 145-28c91-21 180-26 202-13 5 3 63-5 129-19 128-26 281-54 302-54 6 0 12 7 12 15 0 9-10 15-26 15-34 0-188 29-244 46-39 12-41 13-10 10 80-11 167-27 194-36 16-6 47-10 70-10 42-1 145-22 166-35 6-4 48-9 93-11 45-3 102-9 127-14 25-6 104-12 175-15 72-4 141-8 155-10 219-36 548-51 572-27 8 8 3 13-18 18-17 4-29 3-31-3s-14-8-25-5c-21 5-21 6-2 12 15 6 13 9-16 14-32 6-257 28-425 42-38 4-77 10-85 15-9 6 95 7 259 4 151-4 278-8 283-11 7-4 191-5 277-1 19 1 36 7 38 13 4 11-80 10-131-1-10-2-42 0-70 5-28 6-78 12-111 14-50 3-215 19-315 30-71 9-120 19-120 26 0 5 9 6 20 3s20 0 20 5c0 7 22 11 56 11 31-1 51-5 45-9-9-5-8-9 4-14 9-3 21-4 25-1 5 3 43 8 86 11s82 7 86 10 8 1 8-4c0-9 19-12 85-12 174-1 221-3 223-11 2-5 10-5 21 0 9 5 61 6 116 3 55-4 145-6 200-4s116 3 136 3c25 1 46 9 70 30 19 16 43 32 54 35 11 4 33 17 48 30 16 13 38 24 49 24 17 0 124 23 213 46 16 4 17 3 5-5-31-21 3-22 112-3 62 11 127 17 144 15 17-3 76 2 130 10s106 15 114 16c8 0 53 7 100 16 47 8 134 18 194 21s118 10 128 15c12 7 18 6 18-1 0-6 8-9 18-6 37 11 261 28 430 32 97 3 265 8 372 11 277 10 520 9 704 0 116-7 156-6 151 2-4 8 5 10 32 7 149-20 290-28 377-22 56 3 125 2 153-3 29-6 74-13 100-17 26-3 114-28 194-55s152-49 158-49c7 0 19-7 27-15 11-11 35-15 82-14 51 1 61 3 42 10-18 6-12 7 25 4 28-2 118-9 200-15 83-6 173-15 200-21 74-14 166-28 300-43 104-13 122-13 136 0 8 8 23 14 33 14 9 0 28 7 41 16 19 12 28 14 38 5 8-6 16-8 19-5s39 1 79-5c41-6 118-13 172-17 55-3 125-13 158-24 32-10 62-14 64-9 6 9 207 5 224-5 5-4 12-2 15 3s47 9 98 10 102 4 114 7 32 1 43-6c14-7 21-7 21 0 0 6 44 9 123 8 67-1 128 1 135 6 7 4 19 2 27-4 9-8 15-8 15-2 0 11 154 8 190-3 23-7 48 4 32 14-6 3 12 7 39 8 26 1 51-2 54-7 4-6 16-10 28-11 34-1-27-18-88-24-27-3-84-10-126-15-165-22-309-33-414-31-73 1-107-1-100-8 6-5 53-11 105-11 111-2 408 9 431 16 9 2 28 0 43-5 14-6 26-7 26-3s59 8 130 9c72 1 130-2 130-6 0-5-35-12-77-16-43-4-91-9-108-10-63-6-163-15-247-21-54-3-93-11-105-21-10-8-13-12-6-9 6 4 14 2 18-4 3-5-3-10-14-10-12 0-21 5-21 10 0 6-9 10-21 10-11 0-17-5-14-10s0-10-7-11c-7 0-5-4 5-7 19-8 316-6 357 2 14 2 61 9 105 15s91 13 105 16c14 2 86 7 160 10 74 2 151 9 170 15 19 5 66 10 105 10 38 1 88 7 109 15 22 7 71 19 110 25s96 16 126 22 68 12 85 15c16 2 52 8 78 14s51 9 54 6c7-7-47-20-167-41-136-24-140-25-140-38 0-7 14-9 43-4 103 15 168 27 252 45 49 10 93 17 98 14 4-2 14 1 22 7 12 10 18 10 30 0s31-8 97 13c81 25 196 40 513 69 249 23 2601 17 3050-8 125-7 390-32 470-44 78-13 80-13 66 4-15 18-100 32-321 52-283 25-664 33-1925 39-654 3-1210 9-1235 12l-45 7 45 7c71 12 433 9 447-3 9-7 13-7 13 1 0 14 1144 15 1800 1 600-13 1172-43 1126-60-14-5-3-10 39-18 32-7 69-12 82-12s23-4 23-10c0-5-7-10-15-10s-15-4-15-9c0-10 15-16 70-26 58-11 70-16 70-28 0-7 10-14 23-15s70-13 127-26c56-14 107-23 111-20 5 2 41 5 81 5 64 1 128-10 371-61 65-13 77-13 77 5 0 9-9 15-22 15-26 0-170 29-177 36-8 8 44 4 79-7 19-5 69-14 110-19 107-12 141-18 154-29 6-5 56-13 110-16 54-4 109-10 121-15 28-10 122-16 131-8 3 4 16 4 28 0 11-4 48-7 81-6s65-2 70-7c6-4 20-7 30-5 11 2 31-1 45-5s48-11 75-14c88-10 392-18 421-10l29 7-30 12c-16 7-31 9-33 4-2-4-20-7-40-7l-37 2 35 6c49 9 21 24-42 22-28 0-47 3-43 9 3 5-5 7-17 4-37-7-425 33-414 43 5 5 138 4 366-3 277-9 480-10 492-3 25 16 0 19-78 11-55-6-99-5-146 4-36 7-81 12-100 12-89-2-381 36-407 53-14 9-14 10 1 5 10-3 20-1 23 5 9 13 87 8 102-7 8-8 26-9 55-4 68 12 169 19 164 11-3-3 61-7 142-8s160-6 175-12c20-8 26-8 22 0-5 7 23 8 92 4 109-7 258-8 317-1 21 3 48 1 60-4 13-5 37-3 61 6 21 7 41 11 45 9 3-2 24 1 46 6 21 5 92 12 158 14 65 3 126 10 135 14 10 6 24 5 34 0 16-9 17 3 17 171v180H0V510zm6547 124c-3-3-12-4-19-1-8 3-5 6 6 6 11 1 17-2 13-5zm5713-131c0-5-44-9-98-9-71-1-85 0-52 6 63 10 150 11 150 3zm-4597-20c-7-2-19-2-25 0-7 3-2 5 12 5s19-2 13-5zm8184-39c-3-3-12-4-19-1-8 3-5 6 6 6 11 1 17-2 13-5zm46-1c-7-2-19-2-25 0-7 3-2 5 12 5s19-2 13-5zm-4353-63c-8-5-24-9-35-9-16 1-16 2 5 9 35 11 48 11 30 0zM1285 340c13-5 14-9 5-9-8 0-24 4-35 9-13 5-14 9-5 9 8 0 24-4 35-9zm9344-23c-10-9-109-17-109-9 0 5 26 10 57 11s55 0 52-2zm5806-17c7-12-2-12-30 0-19 8-19 9 2 9 12 1 25-3 28-9zm84-6c17-4 31-11 31-16 0-6-10-7-22-3-13 3-36 10-53 15-22 6-25 8-9 9 12 1 36-2 53-5zM2270 270c0-11-21-11-65 0-27 7-25 8 18 9 26 0 47-3 47-9zm8093-27c-7-2-19-2-25 0-7 3-2 5 12 5s19-2 13-5zm-90-10c-7-2-21-2-30 0-10 3-4 5 12 5 17 0 24-2 18-5zm7131-3c-6-6-21-6-39-1-30 9-30 9 10 10 25 1 36-2 29-9zm-7326-7c-10-2-26-2-35 0-10 3-2 5 17 5s27-2 18-5zm-7615-20c-7-2-21-2-30 0-10 3-4 5 12 5 17 0 24-2 18-5zm84-9c-3-3-12-4-19-1-8 3-5 6 6 6 11 1 17-2 13-5zm213-4c0-5-15-9-32-9l-33 1 30 8c17 4 31 8 33 9 1 0 2-3 2-9zm14843-27c-7-2-19-2-25 0-7 3-2 5 12 5s19-2 13-5zm292-13c-3-5-16-10-28-9-21 0-21 1-2 9 28 12 37 12 30 0z">
+                                </path>
+                                <path class="elementor-shape-fill"
+                                    d="M5647 614c-1-1-32-4-68-8-36-3-79-8-95-11s-112-9-213-15c-100-6-204-15-230-20-25-5-66-11-91-14-81-8-124-18-109-26 15-9 318 3 498 20 63 6 281 10 485 9s421-1 481 1c61 2 133 4 162 4 83 1 46 15-67 25-284 26-380 32-558 34-107 1-194 1-195 1z">
+                                </path>
+                                <path class="elementor-shape-fill"
+                                    d="M12805 375c96-18 97-18 120-16 17 3 17 4-5 11-24 8-24 8 6 9 16 1 34-3 40-8 12-12 752-22 779-11 12 5-39 8-125 8-80 0-257 2-395 4-175 2-93 4 275 8l525 5-645 2c-559 1-636-1-575-12z">
+                                </path>
+                                <path class="elementor-shape-fill"
+                                    d="M8425 375c21-10 156-21 161-13 3 4-12 8-34 8s-61 2-88 5-44 3-39 0z"></path>
+                                <path class="elementor-shape-fill"
+                                    d="M13835 340c102-11 175-11 150 0-11 5-65 8-120 8l-100-1 70-7z"></path>
+                                <path class="elementor-shape-fill"
+                                    d="M14125 340l-30-8 33-1c17 0 32 4 32 9 0 6-1 9-2 9-2-1-16-5-33-9z"></path>
+                                <path class="elementor-shape-fill"
+                                    d="M770 331c0-8 85-22 130-20 20 1 17 4-15 14-46 15-115 19-115 6z"></path>
+                                <path class="elementor-shape-fill"
+                                    d="M15748 313c12-2 32-2 45 0 12 2 2 4-23 4s-35-2-22-4z">
+                                </path>
+                                <path class="elementor-shape-fill"
+                                    d="M15914 293c8-8 23-11 96-18 54-5 54-5 25 9-30 15-135 22-121 9z"></path>
+                                <path class="elementor-shape-fill"
+                                    d="M11525 260c-7-12 2-12 30 0 19 8 19 9-2 9-12 1-25-3-28-9z">
+                                </path>
+                                <path class="elementor-shape-fill"
+                                    d="M11490 250c-9-6-10-10-3-10 6 0 15 5 18 10 8 12 4 12-15 0z"></path>
+                                <path class="elementor-shape-fill"
+                                    d="M10850 241c0-8 79-3 89 5 2 2-17 4-42 4-26 0-47-4-47-9z">
+                                </path>
+                                <path class="elementor-shape-fill"
+                                    d="M1220 226c0-9 40-13 46-5 3 5-6 9-20 9s-26-2-26-4z">
+                                </path>
+                                <path class="elementor-shape-fill"
+                                    d="M10770 219c0-5 5-7 10-4 6 3 10 8 10 11 0 2-4 4-10 4-5 0-10-5-10-11z"></path>
+                                <path class="elementor-shape-fill"
+                                    d="M1864 209c-13-5-3-8 29-8 26-1 47 1 47 3 0 8-58 12-76 5z">
+                                </path>
+                                <path class="elementor-shape-fill"
+                                    d="M1328 203c7-3 16-2 19 1 4 3-2 6-13 5-11 0-14-3-6-6z">
+                                </path>
+                                <path class="elementor-shape-fill"
+                                    d="M9655 190c-3-5 3-10 14-10 12 0 21 5 21 10 0 6-6 10-14 10s-18-4-21-10z"></path>
+                                <path class="elementor-shape-fill"
+                                    d="M11005 189c-64-7-124-33-100-42 19-8 296 30 307 41 9 9-135 10-207 1z"></path>
+                                <path class="elementor-shape-fill"
+                                    d="M16360 190c0-5 12-10 28-9 24 0 25 1 7 9-27 12-35 12-35 0z"></path>
+                                <path class="elementor-shape-fill"
+                                    d="M2005 180c3-5 8-10 11-10 2 0 4 5 4 10 0 6-5 10-11 10-5 0-7-4-4-10z"></path>
+                                <path class="elementor-shape-fill"
+                                    d="M16465 170c-3-5-1-10 4-10 6 0 11 5 11 10 0 6-2 10-4 10-3 0-8-4-11-10z"></path>
+                                <path class="elementor-shape-fill"
+                                    d="M17005 170c3-5 22-10 41-10 21 0 33 4 29 10-3 6-22 10-41 10-21 0-33-4-29-10z">
+                                </path>
+                                <path class="elementor-shape-fill"
+                                    d="M1585 150c40-15 223-41 266-38l44 3-37 18c-28 15-65 19-165 21-70 2-119 0-108-4z">
+                                </path>
+                                <path class="elementor-shape-fill"
+                                    d="M3105 150c3-5 13-10 21-10s12 5 9 10c-3 6-13 10-21 10s-12-4-9-10z"></path>
+                                <path class="elementor-shape-fill"
+                                    d="M10730 140c-23-7-23-8-3-9 12-1 25 4 28 9 3 6 5 10 3 9s-14-5-28-9z"></path>
+                                <path class="elementor-shape-fill"
+                                    d="M10780 140c0-11 14-11 50 0 22 7 21 8-12 9-21 1-38-3-38-9z"></path>
+                                <path class="elementor-shape-fill"
+                                    d="M16710 120c0-5 21-12 48-15 26-4 79-13 119-21 84-16 153-18 153-4 0 6-8 10-18 10s-23 5-28 10c-6 6-55 13-110 16-54 2-114 7-131 9-18 2-33 0-33-5z">
+                                </path>
+                                <path class="elementor-shape-fill"
+                                    d="M1940 108c0-5 18-8 40-8s40 2 40 4-18 6-40 8-40 0-40-4z">
+                                </path>
+                                <path class="elementor-shape-fill"
+                                    d="M18240 116c0-9 30-14 35-6 4 6-3 10-14 10-12 0-21-2-21-4z">
+                                </path>
+                                <path class="elementor-shape-fill"
+                                    d="M2035 100c3-5 16-10 28-9 21 0 21 1 2 9-28 12-37 12-30 0z">
+                                </path>
+                                <path class="elementor-shape-fill"
+                                    d="M10533 90c-50-4-88-11-95-19-11-11 12-13 137-7 164 7 225 14 225 27 0 9-120 8-267-1z">
+                                </path>
+                                <path class="elementor-shape-fill"
+                                    d="M10826 92c-3-5 8-6 25-4 16 2 29 6 29 8 0 8-49 4-54-4z">
+                                </path>
+                                <path class="elementor-shape-fill"
+                                    d="M10943 73c9-2 23-2 30 0 6 3-1 5-18 5-16 0-22-2-12-5z">
+                                </path>
+                                <path class="elementor-shape-fill"
+                                    d="M17086 69c3-5 21-9 41-9 45 0 40 6-9 13-21 3-35 1-32-4z">
+                                </path>
+                                <path class="elementor-shape-fill"
+                                    d="M17185 60c27-12 43-12 25 0-8 5-22 9-30 9-10 0-8-3 5-9z">
+                                </path>
+                                <path class="elementor-shape-fill" d="M1923 53c9-2 25-2 35 0 9 3 1 5-18 5s-27-2-17-5z">
+                                </path>
+                                <path class="elementor-shape-fill"
+                                    d="M1990 52c0-18 282-40 341-27 34 8 34 8 9 17-35 13-350 22-350 10z"></path>
+                                <path class="elementor-shape-fill" d="M17063 13c9-2 25-2 35 0 9 3 1 5-18 5s-27-2-17-5z">
+                                </path>
+                                <path class="elementor-shape-fill"
+                                    d="M17130 11c0-5 80-9 178-9 122 0 165 2 137 8-53 12-315 12-315 1z"></path>
+                                <path class="elementor-shape-fill"
+                                    d="M16958 3c7-3 16-2 19 1 4 3-2 6-13 5-11 0-14-3-6-6z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div style="background-color: #f8f8f8; min-width: 100%;">
+        <section style=" padding-top: 50px;" class="shop-by-pet container">
+            <div class="top-shop-pet">
+                <div class="left-top-pet">
+                    <h2>Shop By Pet</h2>
+                    <img class="img-left-pet1" src="./assest/Homepage/Vector-1.png" alt="">
+                    <img class="img-left-pet2" src="./assest/Homepage/Vector-2.png" alt="">
+                </div>
+                <div class="right-top-pet">
+                    <div class="btn-icon">
+                        <i style="transform: rotate(180deg);" class="fa-solid fa-angle-right"></i>
+                    </div>
+                    <div style="margin-left: 5px;" class="btn-icon">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-bottom: 25px;" class="mid-shop-pet ">
+                <div class="shop-items">
+                    <div class="shop-item-list">
+                        <img src="./assest/Homepage/h3_dog.png" alt="">
+                        <div class="descrip-item">
+                            <h4>Senior Dog</h2>
+                                <span>3 products</span>
+                        </div>
+                        <div class="btn-icon">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                    <div class="shop-item-list">
+                        <img src="./assest/Homepage/cat.svg" alt="">
+                        <div class="descrip-item">
+                            <h4>Cat</h2>
+                                <span>5 products</span>
+                        </div>
+                        <div class="btn-icon">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                    <div class="shop-item-list">
+                        <img src="./assest/Homepage/fish.svg" alt="">
+                        <div class="descrip-item">
+                            <h4>Fish</h2>
+                                <span>4 products</span>
+                        </div>
+                        <div class="btn-icon">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                    <div class="shop-item-list">
+                        <img src="./assest/Homepage/small-pet.svg" alt="">
+                        <div class="descrip-item">
+                            <h4>Small Pet</h2>
+                                <span>5 products</span>
+                        </div>
+                        <div class="btn-icon">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="position: relative; border-radius: 5px;" class="bot-shop-pet flex-center">
+                <div class="bot-shop-pet1">
+                    <img style="transform: scaleY(-1); height: 160px; position: absolute; left: 0; bottom: 0;"
+                        src="./assest/Homepage/rev_home3_11.png" alt="">
+                    <img style="z-index: 1; transform: translateX(-30px);" src="./assest/Homepage/h3_BG_01.png" alt="">
+                </div>
+                <div class="bot-shop-pet2">
+                    <h6>UP TO 20% OFF</h6>
+                    <h1>Super Nutrition for Cat!</h1>
+                    <span>Hurry Up Limited Quantity Use Code: SALE20</span>
+                </div>
+                <div style="position: relative;" class="bot-shop-pet3">
+                    <img src="./assest/Homepage/h3_BG_02.png" alt="">
+                    <img style="position: absolute; right: -10px; bottom: 40px;" src="./assest/Homepage/Vector-2.png"
+                        alt="">
+                    <img style="position: absolute; left: -30px; bottom: 40px;" src="./assest/Homepage/Vector-1.png"
+                        alt="">
+                </div>
+                <div class="bot-shop-pet4">
+                    <span>Shop For Your Cat</span>
+                    <div style="margin: 10px 0;" class="btn-now flex-center">
+                        <button class="btn">Shop now</button>
+                        <i class="btn-icon fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div style="background-color: #f8f8f8; min-width: 100%;">
+        <section style=" padding-bottom: 50px;" class="today-best-deal container">
+            <div style="padding-top: 70px;" class="top-shop-pet">
+                <div class="left-top-pet">
+                    <h2>Today's Best Deals</h2>
+                    <img class="img-left-pet1" src="./assest/Homepage/Vector-1.png" alt="">
+                    <img class="img-left-pet2" src="./assest/Homepage/Vector-2.png" alt="">
+                </div>
+                <div class="right-top-pet">
+                    <div class="btn-icon">
+                        <i style="transform: rotate(180deg);" class="fa-solid fa-angle-right"></i>
+                    </div>
+                    <div style="margin-left: 5px;" class="btn-icon">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="mid-best-deal">
+                <div class="card-01">
+                    <div class="card-01-padding">
+                        <div class="card-01-left">
+                            <div class="card-01-left-top">
+                                <img src="./assest/Homepage/product-10-1-350x350.jpg" alt="">
+                                <span class="flex-center">-97%</span>
+                            </div>
+                            <div class="card-01-left-bottom">
+                                <img src="./assest/Homepage/product-10-1-150x102.jpg" alt="">
+                                <img src="./assest/Homepage/product-10-2-150x102.jpg" alt="">
+                                <img src="./assest/Homepage/product-10-3-150x102.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="card-01-right">
+                            <div class="card-01-right-top">
+                                <h3>Practical Bronze Bench</h3>
+                                <h2>$7.97 <span>$251.00</span></h2>
+                                <div>
+                                    <img src="./assest/Homepage/star.svg" alt="">
+                                    <img src="./assest/Homepage/star.svg" alt="">
+                                    <img src="./assest/Homepage/star.svg" alt="">
+                                    <img src="./assest/Homepage/star.svg" alt="">
+                                    <img src="./assest/Homepage/star-line-yellow.svg" alt="">
+                                    <span>(5 reviews)</span>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                            </div>
+                            <div class="card-01-right-bottom">
+                                <h3>Hurry up! Sale ends in:</h3>
+                                <div class="count">
+                                    <span id="day">319</span>:
+                                    <span id="hour">02</span>:
+                                    <span id="min">46</span>:
+                                    <span id="sec">51</span>
+                                </div>
+                                <div style="--percent-ele: 20%" class="time"></div>
+                                <h5>Available: <span>56/81</span></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-01">
+                    <div class="card-01-padding">
+                        <div class="card-01-left">
+                            <div class="card-01-left-top">
+                                <img src="./assest/Homepage/product-7-1-350x350.jpg" alt="">
+                                <span class="flex-center">-98%</span>
+                            </div>
+                            <div class="card-01-left-bottom">
+                                <img src="./assest/Homepage/product-7-1-150x102.jpg" alt="">
+                                <img src="./assest/Homepage/product-7-2-150x102.jpg" alt="">
+                                <img src="./assest/Homepage/product-7-3-150x102.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="card-01-right">
+                            <div class="card-01-right-top">
+                                <h3>Mediocre Marble Bench</h3>
+                                <h2>$18.91 <span>$983.99</span></h2>
+                                <div>
+                                    <img src="./assest/Homepage/star.svg" alt="">
+                                    <img src="./assest/Homepage/star.svg" alt="">
+                                    <img src="./assest/Homepage/star.svg" alt="">
+                                    <img src="./assest/Homepage/star.svg" alt="">
+                                    <img src="./assest/Homepage/star-line-yellow.svg" alt="">
+                                    <span>(5 reviews)</span>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="card-01-right-bottom">
+                                <h3>Hurry up! Sale ends in:</h3>
+                                <div class="count">
+                                    <span id="day">319</span>:
+                                    <span id="hour">02</span>:
+                                    <span id="min">46</span>:
+                                    <span id="sec">51</span>
+                                </div>
+                                <div style="--percent-ele: 95%" class="time"></div>
+                                <h5>Available: <span>3/93</span></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bot-best-deal" style="padding-bottom: 30px;">
+                <div style="background-image: url(http://demo2.themelexus.com/ziggy/wp-content/uploads/2022/05/h3_banner_01.jpg);"
+                    class="best-deal-item">
+                    <h1>Health Supplement For Dogs</h1>
+                    <span>Price from</span>
+                    <h3>$39.99</h3>
+                </div>
+                <div style="background-image: url(http://demo2.themelexus.com/ziggy/wp-content/uploads/2022/05/h3_banner_02.jpg);"
+                    class="best-deal-item">
+                    <h1>Perfect For Wet & Dry Food</h1>
+                    <span>Save up</span>
+                    <h3>25% Off</h3>
+                </div>
+                <div style="background-image: url(http://demo2.themelexus.com/ziggy/wp-content/uploads/2022/05/h3_banner_03.jpg);"
+                    class="best-deal-item">
+                    <h1>For Hamster, Girblis & Mice</h1>
+                    <span>Hotline Order</span>
+                    <h3>(877) 834 1434</h3>
+                </div>
+                <div style="background-image: url(http://demo2.themelexus.com/ziggy/wp-content/uploads/2022/05/h3_banner_04.jpg);"
+                    class="best-deal-item">
+                    <h1>Wagg Meaty Chunks Dog Food</h1>
+                    <span>Only price</span>
+                    <h3>$29.99</h3>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div style=" transform: rotate(180deg); background-color: #f8f8f8;" class="elementor-shape elementor-shape-top"
+        data-negative="false">
+        <svg style="background-color: #f2eaea;" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 1920 70">
+            <g fill="currentColor" class="nc-icon-wrapper">
+                <g transform="matrix(.1 0 0 -.1 0 70)" fill="currentColor" stroke="none">
+                    <path class="elementor-shape-fill"
+                        d="M0 510V319l48 27c26 15 51 31 56 36 6 4 19 8 31 8 11 0 31 7 44 16 27 19 103 14 186-12 120-38 395-61 395-33 0 6-7 9-15 5-8-3-15 0-15 5 0 7 10 9 28 5 15-4 47-9 72-12s90-16 145-28c91-21 180-26 202-13 5 3 63-5 129-19 128-26 281-54 302-54 6 0 12 7 12 15 0 9-10 15-26 15-34 0-188 29-244 46-39 12-41 13-10 10 80-11 167-27 194-36 16-6 47-10 70-10 42-1 145-22 166-35 6-4 48-9 93-11 45-3 102-9 127-14 25-6 104-12 175-15 72-4 141-8 155-10 219-36 548-51 572-27 8 8 3 13-18 18-17 4-29 3-31-3s-14-8-25-5c-21 5-21 6-2 12 15 6 13 9-16 14-32 6-257 28-425 42-38 4-77 10-85 15-9 6 95 7 259 4 151-4 278-8 283-11 7-4 191-5 277-1 19 1 36 7 38 13 4 11-80 10-131-1-10-2-42 0-70 5-28 6-78 12-111 14-50 3-215 19-315 30-71 9-120 19-120 26 0 5 9 6 20 3s20 0 20 5c0 7 22 11 56 11 31-1 51-5 45-9-9-5-8-9 4-14 9-3 21-4 25-1 5 3 43 8 86 11s82 7 86 10 8 1 8-4c0-9 19-12 85-12 174-1 221-3 223-11 2-5 10-5 21 0 9 5 61 6 116 3 55-4 145-6 200-4s116 3 136 3c25 1 46 9 70 30 19 16 43 32 54 35 11 4 33 17 48 30 16 13 38 24 49 24 17 0 124 23 213 46 16 4 17 3 5-5-31-21 3-22 112-3 62 11 127 17 144 15 17-3 76 2 130 10s106 15 114 16c8 0 53 7 100 16 47 8 134 18 194 21s118 10 128 15c12 7 18 6 18-1 0-6 8-9 18-6 37 11 261 28 430 32 97 3 265 8 372 11 277 10 520 9 704 0 116-7 156-6 151 2-4 8 5 10 32 7 149-20 290-28 377-22 56 3 125 2 153-3 29-6 74-13 100-17 26-3 114-28 194-55s152-49 158-49c7 0 19-7 27-15 11-11 35-15 82-14 51 1 61 3 42 10-18 6-12 7 25 4 28-2 118-9 200-15 83-6 173-15 200-21 74-14 166-28 300-43 104-13 122-13 136 0 8 8 23 14 33 14 9 0 28 7 41 16 19 12 28 14 38 5 8-6 16-8 19-5s39 1 79-5c41-6 118-13 172-17 55-3 125-13 158-24 32-10 62-14 64-9 6 9 207 5 224-5 5-4 12-2 15 3s47 9 98 10 102 4 114 7 32 1 43-6c14-7 21-7 21 0 0 6 44 9 123 8 67-1 128 1 135 6 7 4 19 2 27-4 9-8 15-8 15-2 0 11 154 8 190-3 23-7 48 4 32 14-6 3 12 7 39 8 26 1 51-2 54-7 4-6 16-10 28-11 34-1-27-18-88-24-27-3-84-10-126-15-165-22-309-33-414-31-73 1-107-1-100-8 6-5 53-11 105-11 111-2 408 9 431 16 9 2 28 0 43-5 14-6 26-7 26-3s59 8 130 9c72 1 130-2 130-6 0-5-35-12-77-16-43-4-91-9-108-10-63-6-163-15-247-21-54-3-93-11-105-21-10-8-13-12-6-9 6 4 14 2 18-4 3-5-3-10-14-10-12 0-21 5-21 10 0 6-9 10-21 10-11 0-17-5-14-10s0-10-7-11c-7 0-5-4 5-7 19-8 316-6 357 2 14 2 61 9 105 15s91 13 105 16c14 2 86 7 160 10 74 2 151 9 170 15 19 5 66 10 105 10 38 1 88 7 109 15 22 7 71 19 110 25s96 16 126 22 68 12 85 15c16 2 52 8 78 14s51 9 54 6c7-7-47-20-167-41-136-24-140-25-140-38 0-7 14-9 43-4 103 15 168 27 252 45 49 10 93 17 98 14 4-2 14 1 22 7 12 10 18 10 30 0s31-8 97 13c81 25 196 40 513 69 249 23 2601 17 3050-8 125-7 390-32 470-44 78-13 80-13 66 4-15 18-100 32-321 52-283 25-664 33-1925 39-654 3-1210 9-1235 12l-45 7 45 7c71 12 433 9 447-3 9-7 13-7 13 1 0 14 1144 15 1800 1 600-13 1172-43 1126-60-14-5-3-10 39-18 32-7 69-12 82-12s23-4 23-10c0-5-7-10-15-10s-15-4-15-9c0-10 15-16 70-26 58-11 70-16 70-28 0-7 10-14 23-15s70-13 127-26c56-14 107-23 111-20 5 2 41 5 81 5 64 1 128-10 371-61 65-13 77-13 77 5 0 9-9 15-22 15-26 0-170 29-177 36-8 8 44 4 79-7 19-5 69-14 110-19 107-12 141-18 154-29 6-5 56-13 110-16 54-4 109-10 121-15 28-10 122-16 131-8 3 4 16 4 28 0 11-4 48-7 81-6s65-2 70-7c6-4 20-7 30-5 11 2 31-1 45-5s48-11 75-14c88-10 392-18 421-10l29 7-30 12c-16 7-31 9-33 4-2-4-20-7-40-7l-37 2 35 6c49 9 21 24-42 22-28 0-47 3-43 9 3 5-5 7-17 4-37-7-425 33-414 43 5 5 138 4 366-3 277-9 480-10 492-3 25 16 0 19-78 11-55-6-99-5-146 4-36 7-81 12-100 12-89-2-381 36-407 53-14 9-14 10 1 5 10-3 20-1 23 5 9 13 87 8 102-7 8-8 26-9 55-4 68 12 169 19 164 11-3-3 61-7 142-8s160-6 175-12c20-8 26-8 22 0-5 7 23 8 92 4 109-7 258-8 317-1 21 3 48 1 60-4 13-5 37-3 61 6 21 7 41 11 45 9 3-2 24 1 46 6 21 5 92 12 158 14 65 3 126 10 135 14 10 6 24 5 34 0 16-9 17 3 17 171v180H0V510zm6547 124c-3-3-12-4-19-1-8 3-5 6 6 6 11 1 17-2 13-5zm5713-131c0-5-44-9-98-9-71-1-85 0-52 6 63 10 150 11 150 3zm-4597-20c-7-2-19-2-25 0-7 3-2 5 12 5s19-2 13-5zm8184-39c-3-3-12-4-19-1-8 3-5 6 6 6 11 1 17-2 13-5zm46-1c-7-2-19-2-25 0-7 3-2 5 12 5s19-2 13-5zm-4353-63c-8-5-24-9-35-9-16 1-16 2 5 9 35 11 48 11 30 0zM1285 340c13-5 14-9 5-9-8 0-24 4-35 9-13 5-14 9-5 9 8 0 24-4 35-9zm9344-23c-10-9-109-17-109-9 0 5 26 10 57 11s55 0 52-2zm5806-17c7-12-2-12-30 0-19 8-19 9 2 9 12 1 25-3 28-9zm84-6c17-4 31-11 31-16 0-6-10-7-22-3-13 3-36 10-53 15-22 6-25 8-9 9 12 1 36-2 53-5zM2270 270c0-11-21-11-65 0-27 7-25 8 18 9 26 0 47-3 47-9zm8093-27c-7-2-19-2-25 0-7 3-2 5 12 5s19-2 13-5zm-90-10c-7-2-21-2-30 0-10 3-4 5 12 5 17 0 24-2 18-5zm7131-3c-6-6-21-6-39-1-30 9-30 9 10 10 25 1 36-2 29-9zm-7326-7c-10-2-26-2-35 0-10 3-2 5 17 5s27-2 18-5zm-7615-20c-7-2-21-2-30 0-10 3-4 5 12 5 17 0 24-2 18-5zm84-9c-3-3-12-4-19-1-8 3-5 6 6 6 11 1 17-2 13-5zm213-4c0-5-15-9-32-9l-33 1 30 8c17 4 31 8 33 9 1 0 2-3 2-9zm14843-27c-7-2-19-2-25 0-7 3-2 5 12 5s19-2 13-5zm292-13c-3-5-16-10-28-9-21 0-21 1-2 9 28 12 37 12 30 0z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M5647 614c-1-1-32-4-68-8-36-3-79-8-95-11s-112-9-213-15c-100-6-204-15-230-20-25-5-66-11-91-14-81-8-124-18-109-26 15-9 318 3 498 20 63 6 281 10 485 9s421-1 481 1c61 2 133 4 162 4 83 1 46 15-67 25-284 26-380 32-558 34-107 1-194 1-195 1z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M12805 375c96-18 97-18 120-16 17 3 17 4-5 11-24 8-24 8 6 9 16 1 34-3 40-8 12-12 752-22 779-11 12 5-39 8-125 8-80 0-257 2-395 4-175 2-93 4 275 8l525 5-645 2c-559 1-636-1-575-12z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M8425 375c21-10 156-21 161-13 3 4-12 8-34 8s-61 2-88 5-44 3-39 0z"></path>
+                    <path class="elementor-shape-fill" d="M13835 340c102-11 175-11 150 0-11 5-65 8-120 8l-100-1 70-7z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M14125 340l-30-8 33-1c17 0 32 4 32 9 0 6-1 9-2 9-2-1-16-5-33-9z"></path>
+                    <path class="elementor-shape-fill"
+                        d="M770 331c0-8 85-22 130-20 20 1 17 4-15 14-46 15-115 19-115 6z"></path>
+                    <path class="elementor-shape-fill" d="M15748 313c12-2 32-2 45 0 12 2 2 4-23 4s-35-2-22-4z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M15914 293c8-8 23-11 96-18 54-5 54-5 25 9-30 15-135 22-121 9z"></path>
+                    <path class="elementor-shape-fill" d="M11525 260c-7-12 2-12 30 0 19 8 19 9-2 9-12 1-25-3-28-9z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M11490 250c-9-6-10-10-3-10 6 0 15 5 18 10 8 12 4 12-15 0z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M10850 241c0-8 79-3 89 5 2 2-17 4-42 4-26 0-47-4-47-9z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M1220 226c0-9 40-13 46-5 3 5-6 9-20 9s-26-2-26-4z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M10770 219c0-5 5-7 10-4 6 3 10 8 10 11 0 2-4 4-10 4-5 0-10-5-10-11z"></path>
+                    <path class="elementor-shape-fill" d="M1864 209c-13-5-3-8 29-8 26-1 47 1 47 3 0 8-58 12-76 5z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M1328 203c7-3 16-2 19 1 4 3-2 6-13 5-11 0-14-3-6-6z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M9655 190c-3-5 3-10 14-10 12 0 21 5 21 10 0 6-6 10-14 10s-18-4-21-10z"></path>
+                    <path class="elementor-shape-fill"
+                        d="M11005 189c-64-7-124-33-100-42 19-8 296 30 307 41 9 9-135 10-207 1z"></path>
+                    <path class="elementor-shape-fill" d="M16360 190c0-5 12-10 28-9 24 0 25 1 7 9-27 12-35 12-35 0z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M2005 180c3-5 8-10 11-10 2 0 4 5 4 10 0 6-5 10-11 10-5 0-7-4-4-10z"></path>
+                    <path class="elementor-shape-fill"
+                        d="M16465 170c-3-5-1-10 4-10 6 0 11 5 11 10 0 6-2 10-4 10-3 0-8-4-11-10z"></path>
+                    <path class="elementor-shape-fill"
+                        d="M17005 170c3-5 22-10 41-10 21 0 33 4 29 10-3 6-22 10-41 10-21 0-33-4-29-10z"></path>
+                    <path class="elementor-shape-fill"
+                        d="M1585 150c40-15 223-41 266-38l44 3-37 18c-28 15-65 19-165 21-70 2-119 0-108-4z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M3105 150c3-5 13-10 21-10s12 5 9 10c-3 6-13 10-21 10s-12-4-9-10z"></path>
+                    <path class="elementor-shape-fill"
+                        d="M10730 140c-23-7-23-8-3-9 12-1 25 4 28 9 3 6 5 10 3 9s-14-5-28-9z"></path>
+                    <path class="elementor-shape-fill" d="M10780 140c0-11 14-11 50 0 22 7 21 8-12 9-21 1-38-3-38-9z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M16710 120c0-5 21-12 48-15 26-4 79-13 119-21 84-16 153-18 153-4 0 6-8 10-18 10s-23 5-28 10c-6 6-55 13-110 16-54 2-114 7-131 9-18 2-33 0-33-5z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M1940 108c0-5 18-8 40-8s40 2 40 4-18 6-40 8-40 0-40-4z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M18240 116c0-9 30-14 35-6 4 6-3 10-14 10-12 0-21-2-21-4z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M2035 100c3-5 16-10 28-9 21 0 21 1 2 9-28 12-37 12-30 0z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M10533 90c-50-4-88-11-95-19-11-11 12-13 137-7 164 7 225 14 225 27 0 9-120 8-267-1z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M10826 92c-3-5 8-6 25-4 16 2 29 6 29 8 0 8-49 4-54-4z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M10943 73c9-2 23-2 30 0 6 3-1 5-18 5-16 0-22-2-12-5z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M17086 69c3-5 21-9 41-9 45 0 40 6-9 13-21 3-35 1-32-4z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M17185 60c27-12 43-12 25 0-8 5-22 9-30 9-10 0-8-3 5-9z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M1923 53c9-2 25-2 35 0 9 3 1 5-18 5s-27-2-17-5z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M1990 52c0-18 282-40 341-27 34 8 34 8 9 17-35 13-350 22-350 10z"></path>
+                    <path class="elementor-shape-fill" d="M17063 13c9-2 25-2 35 0 9 3 1 5-18 5s-27-2-17-5z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M17130 11c0-5 80-9 178-9 122 0 165 2 137 8-53 12-315 12-315 1z"></path>
+                    <path class="elementor-shape-fill" d="M16958 3c7-3 16-2 19 1 4 3-2 6-13 5-11 0-14-3-6-6z">
+                    </path>
+                </g>
+            </g>
+        </svg>
+    </div>
+
+    <div style="min-width: 100%; background-color: #f2eaea;">
+        <section style="  position: relative;" class="sping-pet container">
+
+            <div class="content-spring" style="padding-top: 50px;">
+                <div class="top-shop-pet">
+                    <div class="left-top-pet">
+                        <h2>Spring Pet Collection</h2>
+                        <img class="img-left-pet1" src="./assest/Homepage/Vector-1.png" alt="">
+                        <img class="img-left-pet2" src="./assest/Homepage/Vector-2.png" alt="">
+                    </div>
+                    <div class="right-top-pet">
+                        <divl class="btn-list ">
+                            <span class="btn-item">All items</span>
+                            <span class="btn-item">Sales</span>
+                            <span class="btn-item">Featured</span>
+                            <span class="btn-item">Best Seller</span>
+                        </divl>
+                    </div>
+                </div>
+                <div class="mid-spring-pet" style="padding-bottom: 50px;">
+                    <div class="spring-pet-item">
+                        <img src="./assest/Homepage/product-18-1-350x350.jpg" alt="">
+                        <h3>$131.01</h3>
+                        <h4>Practical Rubber Bottle</h4>
+                        <div>
+                            <img src="./assest/Homepage/star.svg" alt="">
+                            <img src="./assest/Homepage/star.svg" alt="">
+                            <img src="./assest/Homepage/star.svg" alt="">
+                            <img src="./assest/Homepage/star.svg" alt="">
+                            <img src="./assest/Homepage/star-line-yellow.svg" alt="">
+                            <span>(5 reviews)</span>
+                        </div>
+                    </div>
+                    <div class="spring-pet-item">
+                        <img src="./assest/Homepage/product-17-1-350x350.jpg" alt="">
+                        <h3>$941.23</h3>
+                        <h4>Rustic Iron Hat</h4>
+                        <div>
+                            <img src="./assest/Homepage/star.svg" alt="">
+                            <img src="./assest/Homepage/star.svg" alt="">
+                            <img src="./assest/Homepage/star.svg" alt="">
+                            <img src="./assest/Homepage/star.svg" alt="">
+                            <img src="./assest/Homepage/star-line-yellow.svg" alt="">
+                            <span>(5 reviews)</span>
+                        </div>
+                    </div>
+                    <div class="spring-pet-item">
+                        <img src="./assest/Homepage/product-16-1-350x350.jpg" alt="">
+                        <h3>$305.49</h3>
+                        <h4>Fantastic Plastic Clock</h4>
+                        <div>
+                            <img src="./assest/Homepage/star.svg" alt="">
+                            <img src="./assest/Homepage/star.svg" alt="">
+                            <img src="./assest/Homepage/star.svg" alt="">
+                            <img src="./assest/Homepage/star.svg" alt="">
+                            <img src="./assest/Homepage/star-line-yellow.svg" alt="">
+                            <span>(5 reviews)</span>
+                        </div>
+                    </div>
+                    <div class="spring-pet-item">
+                        <img src="./assest/Homepage/product-15-1-350x350.jpg" alt="">
+                        <h3>$426.03</h3>
+                        <h4>Intelligent Wooden Shirt</h4>
+                        <div>
+                            <img src="./assest/Homepage/star.svg" alt="">
+                            <img src="./assest/Homepage/star.svg" alt="">
+                            <img src="./assest/Homepage/star.svg" alt="">
+                            <img src="./assest/Homepage/star.svg" alt="">
+                            <img src="./assest/Homepage/star-line-yellow.svg" alt="">
+                            <span>(5 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+    <div class="elementor-shape elementor-shape-top" data-negative="false">
+        <svg style="background-color: #f2eaea; color:#ffffff" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid meet" viewBox="0 0 1920 70">
+            <g fill="currentColor" class="nc-icon-wrapper">
+                <g transform="matrix(.1 0 0 -.1 0 70)" fill="currentColor" stroke="none">
+                    <path class="elementor-shape-fill"
+                        d="M0 510V319l48 27c26 15 51 31 56 36 6 4 19 8 31 8 11 0 31 7 44 16 27 19 103 14 186-12 120-38 395-61 395-33 0 6-7 9-15 5-8-3-15 0-15 5 0 7 10 9 28 5 15-4 47-9 72-12s90-16 145-28c91-21 180-26 202-13 5 3 63-5 129-19 128-26 281-54 302-54 6 0 12 7 12 15 0 9-10 15-26 15-34 0-188 29-244 46-39 12-41 13-10 10 80-11 167-27 194-36 16-6 47-10 70-10 42-1 145-22 166-35 6-4 48-9 93-11 45-3 102-9 127-14 25-6 104-12 175-15 72-4 141-8 155-10 219-36 548-51 572-27 8 8 3 13-18 18-17 4-29 3-31-3s-14-8-25-5c-21 5-21 6-2 12 15 6 13 9-16 14-32 6-257 28-425 42-38 4-77 10-85 15-9 6 95 7 259 4 151-4 278-8 283-11 7-4 191-5 277-1 19 1 36 7 38 13 4 11-80 10-131-1-10-2-42 0-70 5-28 6-78 12-111 14-50 3-215 19-315 30-71 9-120 19-120 26 0 5 9 6 20 3s20 0 20 5c0 7 22 11 56 11 31-1 51-5 45-9-9-5-8-9 4-14 9-3 21-4 25-1 5 3 43 8 86 11s82 7 86 10 8 1 8-4c0-9 19-12 85-12 174-1 221-3 223-11 2-5 10-5 21 0 9 5 61 6 116 3 55-4 145-6 200-4s116 3 136 3c25 1 46 9 70 30 19 16 43 32 54 35 11 4 33 17 48 30 16 13 38 24 49 24 17 0 124 23 213 46 16 4 17 3 5-5-31-21 3-22 112-3 62 11 127 17 144 15 17-3 76 2 130 10s106 15 114 16c8 0 53 7 100 16 47 8 134 18 194 21s118 10 128 15c12 7 18 6 18-1 0-6 8-9 18-6 37 11 261 28 430 32 97 3 265 8 372 11 277 10 520 9 704 0 116-7 156-6 151 2-4 8 5 10 32 7 149-20 290-28 377-22 56 3 125 2 153-3 29-6 74-13 100-17 26-3 114-28 194-55s152-49 158-49c7 0 19-7 27-15 11-11 35-15 82-14 51 1 61 3 42 10-18 6-12 7 25 4 28-2 118-9 200-15 83-6 173-15 200-21 74-14 166-28 300-43 104-13 122-13 136 0 8 8 23 14 33 14 9 0 28 7 41 16 19 12 28 14 38 5 8-6 16-8 19-5s39 1 79-5c41-6 118-13 172-17 55-3 125-13 158-24 32-10 62-14 64-9 6 9 207 5 224-5 5-4 12-2 15 3s47 9 98 10 102 4 114 7 32 1 43-6c14-7 21-7 21 0 0 6 44 9 123 8 67-1 128 1 135 6 7 4 19 2 27-4 9-8 15-8 15-2 0 11 154 8 190-3 23-7 48 4 32 14-6 3 12 7 39 8 26 1 51-2 54-7 4-6 16-10 28-11 34-1-27-18-88-24-27-3-84-10-126-15-165-22-309-33-414-31-73 1-107-1-100-8 6-5 53-11 105-11 111-2 408 9 431 16 9 2 28 0 43-5 14-6 26-7 26-3s59 8 130 9c72 1 130-2 130-6 0-5-35-12-77-16-43-4-91-9-108-10-63-6-163-15-247-21-54-3-93-11-105-21-10-8-13-12-6-9 6 4 14 2 18-4 3-5-3-10-14-10-12 0-21 5-21 10 0 6-9 10-21 10-11 0-17-5-14-10s0-10-7-11c-7 0-5-4 5-7 19-8 316-6 357 2 14 2 61 9 105 15s91 13 105 16c14 2 86 7 160 10 74 2 151 9 170 15 19 5 66 10 105 10 38 1 88 7 109 15 22 7 71 19 110 25s96 16 126 22 68 12 85 15c16 2 52 8 78 14s51 9 54 6c7-7-47-20-167-41-136-24-140-25-140-38 0-7 14-9 43-4 103 15 168 27 252 45 49 10 93 17 98 14 4-2 14 1 22 7 12 10 18 10 30 0s31-8 97 13c81 25 196 40 513 69 249 23 2601 17 3050-8 125-7 390-32 470-44 78-13 80-13 66 4-15 18-100 32-321 52-283 25-664 33-1925 39-654 3-1210 9-1235 12l-45 7 45 7c71 12 433 9 447-3 9-7 13-7 13 1 0 14 1144 15 1800 1 600-13 1172-43 1126-60-14-5-3-10 39-18 32-7 69-12 82-12s23-4 23-10c0-5-7-10-15-10s-15-4-15-9c0-10 15-16 70-26 58-11 70-16 70-28 0-7 10-14 23-15s70-13 127-26c56-14 107-23 111-20 5 2 41 5 81 5 64 1 128-10 371-61 65-13 77-13 77 5 0 9-9 15-22 15-26 0-170 29-177 36-8 8 44 4 79-7 19-5 69-14 110-19 107-12 141-18 154-29 6-5 56-13 110-16 54-4 109-10 121-15 28-10 122-16 131-8 3 4 16 4 28 0 11-4 48-7 81-6s65-2 70-7c6-4 20-7 30-5 11 2 31-1 45-5s48-11 75-14c88-10 392-18 421-10l29 7-30 12c-16 7-31 9-33 4-2-4-20-7-40-7l-37 2 35 6c49 9 21 24-42 22-28 0-47 3-43 9 3 5-5 7-17 4-37-7-425 33-414 43 5 5 138 4 366-3 277-9 480-10 492-3 25 16 0 19-78 11-55-6-99-5-146 4-36 7-81 12-100 12-89-2-381 36-407 53-14 9-14 10 1 5 10-3 20-1 23 5 9 13 87 8 102-7 8-8 26-9 55-4 68 12 169 19 164 11-3-3 61-7 142-8s160-6 175-12c20-8 26-8 22 0-5 7 23 8 92 4 109-7 258-8 317-1 21 3 48 1 60-4 13-5 37-3 61 6 21 7 41 11 45 9 3-2 24 1 46 6 21 5 92 12 158 14 65 3 126 10 135 14 10 6 24 5 34 0 16-9 17 3 17 171v180H0V510zm6547 124c-3-3-12-4-19-1-8 3-5 6 6 6 11 1 17-2 13-5zm5713-131c0-5-44-9-98-9-71-1-85 0-52 6 63 10 150 11 150 3zm-4597-20c-7-2-19-2-25 0-7 3-2 5 12 5s19-2 13-5zm8184-39c-3-3-12-4-19-1-8 3-5 6 6 6 11 1 17-2 13-5zm46-1c-7-2-19-2-25 0-7 3-2 5 12 5s19-2 13-5zm-4353-63c-8-5-24-9-35-9-16 1-16 2 5 9 35 11 48 11 30 0zM1285 340c13-5 14-9 5-9-8 0-24 4-35 9-13 5-14 9-5 9 8 0 24-4 35-9zm9344-23c-10-9-109-17-109-9 0 5 26 10 57 11s55 0 52-2zm5806-17c7-12-2-12-30 0-19 8-19 9 2 9 12 1 25-3 28-9zm84-6c17-4 31-11 31-16 0-6-10-7-22-3-13 3-36 10-53 15-22 6-25 8-9 9 12 1 36-2 53-5zM2270 270c0-11-21-11-65 0-27 7-25 8 18 9 26 0 47-3 47-9zm8093-27c-7-2-19-2-25 0-7 3-2 5 12 5s19-2 13-5zm-90-10c-7-2-21-2-30 0-10 3-4 5 12 5 17 0 24-2 18-5zm7131-3c-6-6-21-6-39-1-30 9-30 9 10 10 25 1 36-2 29-9zm-7326-7c-10-2-26-2-35 0-10 3-2 5 17 5s27-2 18-5zm-7615-20c-7-2-21-2-30 0-10 3-4 5 12 5 17 0 24-2 18-5zm84-9c-3-3-12-4-19-1-8 3-5 6 6 6 11 1 17-2 13-5zm213-4c0-5-15-9-32-9l-33 1 30 8c17 4 31 8 33 9 1 0 2-3 2-9zm14843-27c-7-2-19-2-25 0-7 3-2 5 12 5s19-2 13-5zm292-13c-3-5-16-10-28-9-21 0-21 1-2 9 28 12 37 12 30 0z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M5647 614c-1-1-32-4-68-8-36-3-79-8-95-11s-112-9-213-15c-100-6-204-15-230-20-25-5-66-11-91-14-81-8-124-18-109-26 15-9 318 3 498 20 63 6 281 10 485 9s421-1 481 1c61 2 133 4 162 4 83 1 46 15-67 25-284 26-380 32-558 34-107 1-194 1-195 1z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M12805 375c96-18 97-18 120-16 17 3 17 4-5 11-24 8-24 8 6 9 16 1 34-3 40-8 12-12 752-22 779-11 12 5-39 8-125 8-80 0-257 2-395 4-175 2-93 4 275 8l525 5-645 2c-559 1-636-1-575-12z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M8425 375c21-10 156-21 161-13 3 4-12 8-34 8s-61 2-88 5-44 3-39 0z"></path>
+                    <path class="elementor-shape-fill" d="M13835 340c102-11 175-11 150 0-11 5-65 8-120 8l-100-1 70-7z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M14125 340l-30-8 33-1c17 0 32 4 32 9 0 6-1 9-2 9-2-1-16-5-33-9z"></path>
+                    <path class="elementor-shape-fill"
+                        d="M770 331c0-8 85-22 130-20 20 1 17 4-15 14-46 15-115 19-115 6z"></path>
+                    <path class="elementor-shape-fill" d="M15748 313c12-2 32-2 45 0 12 2 2 4-23 4s-35-2-22-4z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M15914 293c8-8 23-11 96-18 54-5 54-5 25 9-30 15-135 22-121 9z"></path>
+                    <path class="elementor-shape-fill" d="M11525 260c-7-12 2-12 30 0 19 8 19 9-2 9-12 1-25-3-28-9z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M11490 250c-9-6-10-10-3-10 6 0 15 5 18 10 8 12 4 12-15 0z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M10850 241c0-8 79-3 89 5 2 2-17 4-42 4-26 0-47-4-47-9z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M1220 226c0-9 40-13 46-5 3 5-6 9-20 9s-26-2-26-4z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M10770 219c0-5 5-7 10-4 6 3 10 8 10 11 0 2-4 4-10 4-5 0-10-5-10-11z"></path>
+                    <path class="elementor-shape-fill" d="M1864 209c-13-5-3-8 29-8 26-1 47 1 47 3 0 8-58 12-76 5z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M1328 203c7-3 16-2 19 1 4 3-2 6-13 5-11 0-14-3-6-6z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M9655 190c-3-5 3-10 14-10 12 0 21 5 21 10 0 6-6 10-14 10s-18-4-21-10z"></path>
+                    <path class="elementor-shape-fill"
+                        d="M11005 189c-64-7-124-33-100-42 19-8 296 30 307 41 9 9-135 10-207 1z"></path>
+                    <path class="elementor-shape-fill" d="M16360 190c0-5 12-10 28-9 24 0 25 1 7 9-27 12-35 12-35 0z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M2005 180c3-5 8-10 11-10 2 0 4 5 4 10 0 6-5 10-11 10-5 0-7-4-4-10z"></path>
+                    <path class="elementor-shape-fill"
+                        d="M16465 170c-3-5-1-10 4-10 6 0 11 5 11 10 0 6-2 10-4 10-3 0-8-4-11-10z"></path>
+                    <path class="elementor-shape-fill"
+                        d="M17005 170c3-5 22-10 41-10 21 0 33 4 29 10-3 6-22 10-41 10-21 0-33-4-29-10z"></path>
+                    <path class="elementor-shape-fill"
+                        d="M1585 150c40-15 223-41 266-38l44 3-37 18c-28 15-65 19-165 21-70 2-119 0-108-4z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M3105 150c3-5 13-10 21-10s12 5 9 10c-3 6-13 10-21 10s-12-4-9-10z"></path>
+                    <path class="elementor-shape-fill"
+                        d="M10730 140c-23-7-23-8-3-9 12-1 25 4 28 9 3 6 5 10 3 9s-14-5-28-9z"></path>
+                    <path class="elementor-shape-fill" d="M10780 140c0-11 14-11 50 0 22 7 21 8-12 9-21 1-38-3-38-9z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M16710 120c0-5 21-12 48-15 26-4 79-13 119-21 84-16 153-18 153-4 0 6-8 10-18 10s-23 5-28 10c-6 6-55 13-110 16-54 2-114 7-131 9-18 2-33 0-33-5z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M1940 108c0-5 18-8 40-8s40 2 40 4-18 6-40 8-40 0-40-4z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M18240 116c0-9 30-14 35-6 4 6-3 10-14 10-12 0-21-2-21-4z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M2035 100c3-5 16-10 28-9 21 0 21 1 2 9-28 12-37 12-30 0z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M10533 90c-50-4-88-11-95-19-11-11 12-13 137-7 164 7 225 14 225 27 0 9-120 8-267-1z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M10826 92c-3-5 8-6 25-4 16 2 29 6 29 8 0 8-49 4-54-4z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M10943 73c9-2 23-2 30 0 6 3-1 5-18 5-16 0-22-2-12-5z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M17086 69c3-5 21-9 41-9 45 0 40 6-9 13-21 3-35 1-32-4z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M17185 60c27-12 43-12 25 0-8 5-22 9-30 9-10 0-8-3 5-9z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M1923 53c9-2 25-2 35 0 9 3 1 5-18 5s-27-2-17-5z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M1990 52c0-18 282-40 341-27 34 8 34 8 9 17-35 13-350 22-350 10z"></path>
+                    <path class="elementor-shape-fill" d="M17063 13c9-2 25-2 35 0 9 3 1 5-18 5s-27-2-17-5z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M17130 11c0-5 80-9 178-9 122 0 165 2 137 8-53 12-315 12-315 1z"></path>
+                    <path class="elementor-shape-fill" d="M16958 3c7-3 16-2 19 1 4 3-2 6-13 5-11 0-14-3-6-6z">
+                    </path>
+                </g>
+            </g>
+        </svg>
+    </div>
+
+    <section style=" display: flex; justify-content: space-between; padding-top: 50px; padding-bottom: 50px;"
+        class="products container">
+        <div class="product-col-01">
+            <h2>Featured Products</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="./assest/Homepage/product-19-1-350x350.jpg" alt="">
+                    <div class="descript-product">
+                        <h4>Ergonomic Paper Clock</h4>
+                        <h5>$611.82 <span>$853.93</span></h5>
+                        <div>
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star-line-yellow.svg" alt="">
+                            <span>(5 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="./assest/Homepage/product-18-1-350x350.jpg" alt="">
+                    <div class="descript-product">
+                        <h4>Gorgeous Bronze Knife</h4>
+                        <h5 style="color: var(--btn-color);">$368.84</h5>
+                        <div>
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star-line-yellow.svg" alt="">
+                            <span>(5 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="./assest/Homepage/product-17-1-350x350.jpg" alt="">
+                    <div class="descript-product">
+                        <h4>Practical Rubber Bottle</h4>
+                        <h5 style="color: var(--btn-color);">$131.01</h5>
+                        <div>
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star-line-yellow.svg" alt="">
+                            <span>(5 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-col-01">
+            <h2>Top Selling Products</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="./assest/Homepage/product-19-1-350x350.jpg" alt="">
+                    <div class="descript-product">
+                        <h4>Ergonomic Paper Clock</h4>
+                        <h5 style="color: var(--btn-color);">$305.49</h5>
+                        <div>
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star-line-yellow.svg" alt="">
+                            <span>(5 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="./assest/Homepage/product-9-1-350x350.jpg" alt="">
+                    <div class="descript-product">
+                        <h4>Fantastic Marble Shoes</h4>
+                        <h5 style="color: var(--btn-color);">$66.17</h5>
+                        <div>
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star-line-yellow.svg" alt="">
+                            <span>(5 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="./assest/Homepage/product-13-1-350x350.jpg" alt="">
+                    <div class="descript-product">
+                        <h4>Rustic Marble Car</h4>
+                        <h5 style="color: var(--btn-color);">$899.41</h5>
+                        <div>
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star-line-yellow.svg" alt="">
+                            <span>(5 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-col-01">
+            <h2>On Sale Products</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="./assest/Homepage/product-19-1-350x350.jpg" alt="">
+                    <div class="descript-product">
+                        <h4>Ergonomic Paper Clock</h4>
+                        <h5>$611.82 <span>$853.93</span></h5>
+                        <div>
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star-line-yellow.svg" alt="">
+                            <span>(5 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="./assest/Homepage/product-10-1-350x350.jpg" alt="">
+                    <div class="descript-product">
+                        <h4>Practical Bronze Bench</h4>
+                        <h5>$7.97 <span>$251.00</span></h5>
+                        <div>
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star-line-yellow.svg" alt="">
+                            <span>(5 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="./assest/Homepage/product-7-1-350x350.jpg" alt="">
+                    <div class="descript-product">
+                        <h4>Mediocre Marble Bench</h4>
+                        <h5>$18.91 <span>$983.99</span></h5>
+                        <div>
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                            <img width="10px" height="10px" src="./assest/Homepage/star-line-yellow.svg" alt="">
+                            <span>(5 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div style=" transform: rotate(180deg); " class="elementor-shape elementor-shape-top" data-negative="false">
+        <svg style="background-color: #f2eaea; color:#ffffff" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid meet" viewBox="0 0 1920 70">
+            <g fill="currentColor" class="nc-icon-wrapper">
+                <g transform="matrix(.1 0 0 -.1 0 70)" fill="currentColor" stroke="none">
+                    <path class="elementor-shape-fill"
+                        d="M0 510V319l48 27c26 15 51 31 56 36 6 4 19 8 31 8 11 0 31 7 44 16 27 19 103 14 186-12 120-38 395-61 395-33 0 6-7 9-15 5-8-3-15 0-15 5 0 7 10 9 28 5 15-4 47-9 72-12s90-16 145-28c91-21 180-26 202-13 5 3 63-5 129-19 128-26 281-54 302-54 6 0 12 7 12 15 0 9-10 15-26 15-34 0-188 29-244 46-39 12-41 13-10 10 80-11 167-27 194-36 16-6 47-10 70-10 42-1 145-22 166-35 6-4 48-9 93-11 45-3 102-9 127-14 25-6 104-12 175-15 72-4 141-8 155-10 219-36 548-51 572-27 8 8 3 13-18 18-17 4-29 3-31-3s-14-8-25-5c-21 5-21 6-2 12 15 6 13 9-16 14-32 6-257 28-425 42-38 4-77 10-85 15-9 6 95 7 259 4 151-4 278-8 283-11 7-4 191-5 277-1 19 1 36 7 38 13 4 11-80 10-131-1-10-2-42 0-70 5-28 6-78 12-111 14-50 3-215 19-315 30-71 9-120 19-120 26 0 5 9 6 20 3s20 0 20 5c0 7 22 11 56 11 31-1 51-5 45-9-9-5-8-9 4-14 9-3 21-4 25-1 5 3 43 8 86 11s82 7 86 10 8 1 8-4c0-9 19-12 85-12 174-1 221-3 223-11 2-5 10-5 21 0 9 5 61 6 116 3 55-4 145-6 200-4s116 3 136 3c25 1 46 9 70 30 19 16 43 32 54 35 11 4 33 17 48 30 16 13 38 24 49 24 17 0 124 23 213 46 16 4 17 3 5-5-31-21 3-22 112-3 62 11 127 17 144 15 17-3 76 2 130 10s106 15 114 16c8 0 53 7 100 16 47 8 134 18 194 21s118 10 128 15c12 7 18 6 18-1 0-6 8-9 18-6 37 11 261 28 430 32 97 3 265 8 372 11 277 10 520 9 704 0 116-7 156-6 151 2-4 8 5 10 32 7 149-20 290-28 377-22 56 3 125 2 153-3 29-6 74-13 100-17 26-3 114-28 194-55s152-49 158-49c7 0 19-7 27-15 11-11 35-15 82-14 51 1 61 3 42 10-18 6-12 7 25 4 28-2 118-9 200-15 83-6 173-15 200-21 74-14 166-28 300-43 104-13 122-13 136 0 8 8 23 14 33 14 9 0 28 7 41 16 19 12 28 14 38 5 8-6 16-8 19-5s39 1 79-5c41-6 118-13 172-17 55-3 125-13 158-24 32-10 62-14 64-9 6 9 207 5 224-5 5-4 12-2 15 3s47 9 98 10 102 4 114 7 32 1 43-6c14-7 21-7 21 0 0 6 44 9 123 8 67-1 128 1 135 6 7 4 19 2 27-4 9-8 15-8 15-2 0 11 154 8 190-3 23-7 48 4 32 14-6 3 12 7 39 8 26 1 51-2 54-7 4-6 16-10 28-11 34-1-27-18-88-24-27-3-84-10-126-15-165-22-309-33-414-31-73 1-107-1-100-8 6-5 53-11 105-11 111-2 408 9 431 16 9 2 28 0 43-5 14-6 26-7 26-3s59 8 130 9c72 1 130-2 130-6 0-5-35-12-77-16-43-4-91-9-108-10-63-6-163-15-247-21-54-3-93-11-105-21-10-8-13-12-6-9 6 4 14 2 18-4 3-5-3-10-14-10-12 0-21 5-21 10 0 6-9 10-21 10-11 0-17-5-14-10s0-10-7-11c-7 0-5-4 5-7 19-8 316-6 357 2 14 2 61 9 105 15s91 13 105 16c14 2 86 7 160 10 74 2 151 9 170 15 19 5 66 10 105 10 38 1 88 7 109 15 22 7 71 19 110 25s96 16 126 22 68 12 85 15c16 2 52 8 78 14s51 9 54 6c7-7-47-20-167-41-136-24-140-25-140-38 0-7 14-9 43-4 103 15 168 27 252 45 49 10 93 17 98 14 4-2 14 1 22 7 12 10 18 10 30 0s31-8 97 13c81 25 196 40 513 69 249 23 2601 17 3050-8 125-7 390-32 470-44 78-13 80-13 66 4-15 18-100 32-321 52-283 25-664 33-1925 39-654 3-1210 9-1235 12l-45 7 45 7c71 12 433 9 447-3 9-7 13-7 13 1 0 14 1144 15 1800 1 600-13 1172-43 1126-60-14-5-3-10 39-18 32-7 69-12 82-12s23-4 23-10c0-5-7-10-15-10s-15-4-15-9c0-10 15-16 70-26 58-11 70-16 70-28 0-7 10-14 23-15s70-13 127-26c56-14 107-23 111-20 5 2 41 5 81 5 64 1 128-10 371-61 65-13 77-13 77 5 0 9-9 15-22 15-26 0-170 29-177 36-8 8 44 4 79-7 19-5 69-14 110-19 107-12 141-18 154-29 6-5 56-13 110-16 54-4 109-10 121-15 28-10 122-16 131-8 3 4 16 4 28 0 11-4 48-7 81-6s65-2 70-7c6-4 20-7 30-5 11 2 31-1 45-5s48-11 75-14c88-10 392-18 421-10l29 7-30 12c-16 7-31 9-33 4-2-4-20-7-40-7l-37 2 35 6c49 9 21 24-42 22-28 0-47 3-43 9 3 5-5 7-17 4-37-7-425 33-414 43 5 5 138 4 366-3 277-9 480-10 492-3 25 16 0 19-78 11-55-6-99-5-146 4-36 7-81 12-100 12-89-2-381 36-407 53-14 9-14 10 1 5 10-3 20-1 23 5 9 13 87 8 102-7 8-8 26-9 55-4 68 12 169 19 164 11-3-3 61-7 142-8s160-6 175-12c20-8 26-8 22 0-5 7 23 8 92 4 109-7 258-8 317-1 21 3 48 1 60-4 13-5 37-3 61 6 21 7 41 11 45 9 3-2 24 1 46 6 21 5 92 12 158 14 65 3 126 10 135 14 10 6 24 5 34 0 16-9 17 3 17 171v180H0V510zm6547 124c-3-3-12-4-19-1-8 3-5 6 6 6 11 1 17-2 13-5zm5713-131c0-5-44-9-98-9-71-1-85 0-52 6 63 10 150 11 150 3zm-4597-20c-7-2-19-2-25 0-7 3-2 5 12 5s19-2 13-5zm8184-39c-3-3-12-4-19-1-8 3-5 6 6 6 11 1 17-2 13-5zm46-1c-7-2-19-2-25 0-7 3-2 5 12 5s19-2 13-5zm-4353-63c-8-5-24-9-35-9-16 1-16 2 5 9 35 11 48 11 30 0zM1285 340c13-5 14-9 5-9-8 0-24 4-35 9-13 5-14 9-5 9 8 0 24-4 35-9zm9344-23c-10-9-109-17-109-9 0 5 26 10 57 11s55 0 52-2zm5806-17c7-12-2-12-30 0-19 8-19 9 2 9 12 1 25-3 28-9zm84-6c17-4 31-11 31-16 0-6-10-7-22-3-13 3-36 10-53 15-22 6-25 8-9 9 12 1 36-2 53-5zM2270 270c0-11-21-11-65 0-27 7-25 8 18 9 26 0 47-3 47-9zm8093-27c-7-2-19-2-25 0-7 3-2 5 12 5s19-2 13-5zm-90-10c-7-2-21-2-30 0-10 3-4 5 12 5 17 0 24-2 18-5zm7131-3c-6-6-21-6-39-1-30 9-30 9 10 10 25 1 36-2 29-9zm-7326-7c-10-2-26-2-35 0-10 3-2 5 17 5s27-2 18-5zm-7615-20c-7-2-21-2-30 0-10 3-4 5 12 5 17 0 24-2 18-5zm84-9c-3-3-12-4-19-1-8 3-5 6 6 6 11 1 17-2 13-5zm213-4c0-5-15-9-32-9l-33 1 30 8c17 4 31 8 33 9 1 0 2-3 2-9zm14843-27c-7-2-19-2-25 0-7 3-2 5 12 5s19-2 13-5zm292-13c-3-5-16-10-28-9-21 0-21 1-2 9 28 12 37 12 30 0z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M5647 614c-1-1-32-4-68-8-36-3-79-8-95-11s-112-9-213-15c-100-6-204-15-230-20-25-5-66-11-91-14-81-8-124-18-109-26 15-9 318 3 498 20 63 6 281 10 485 9s421-1 481 1c61 2 133 4 162 4 83 1 46 15-67 25-284 26-380 32-558 34-107 1-194 1-195 1z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M12805 375c96-18 97-18 120-16 17 3 17 4-5 11-24 8-24 8 6 9 16 1 34-3 40-8 12-12 752-22 779-11 12 5-39 8-125 8-80 0-257 2-395 4-175 2-93 4 275 8l525 5-645 2c-559 1-636-1-575-12z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M8425 375c21-10 156-21 161-13 3 4-12 8-34 8s-61 2-88 5-44 3-39 0z"></path>
+                    <path class="elementor-shape-fill" d="M13835 340c102-11 175-11 150 0-11 5-65 8-120 8l-100-1 70-7z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M14125 340l-30-8 33-1c17 0 32 4 32 9 0 6-1 9-2 9-2-1-16-5-33-9z"></path>
+                    <path class="elementor-shape-fill"
+                        d="M770 331c0-8 85-22 130-20 20 1 17 4-15 14-46 15-115 19-115 6z"></path>
+                    <path class="elementor-shape-fill" d="M15748 313c12-2 32-2 45 0 12 2 2 4-23 4s-35-2-22-4z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M15914 293c8-8 23-11 96-18 54-5 54-5 25 9-30 15-135 22-121 9z"></path>
+                    <path class="elementor-shape-fill" d="M11525 260c-7-12 2-12 30 0 19 8 19 9-2 9-12 1-25-3-28-9z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M11490 250c-9-6-10-10-3-10 6 0 15 5 18 10 8 12 4 12-15 0z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M10850 241c0-8 79-3 89 5 2 2-17 4-42 4-26 0-47-4-47-9z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M1220 226c0-9 40-13 46-5 3 5-6 9-20 9s-26-2-26-4z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M10770 219c0-5 5-7 10-4 6 3 10 8 10 11 0 2-4 4-10 4-5 0-10-5-10-11z"></path>
+                    <path class="elementor-shape-fill" d="M1864 209c-13-5-3-8 29-8 26-1 47 1 47 3 0 8-58 12-76 5z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M1328 203c7-3 16-2 19 1 4 3-2 6-13 5-11 0-14-3-6-6z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M9655 190c-3-5 3-10 14-10 12 0 21 5 21 10 0 6-6 10-14 10s-18-4-21-10z"></path>
+                    <path class="elementor-shape-fill"
+                        d="M11005 189c-64-7-124-33-100-42 19-8 296 30 307 41 9 9-135 10-207 1z"></path>
+                    <path class="elementor-shape-fill" d="M16360 190c0-5 12-10 28-9 24 0 25 1 7 9-27 12-35 12-35 0z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M2005 180c3-5 8-10 11-10 2 0 4 5 4 10 0 6-5 10-11 10-5 0-7-4-4-10z"></path>
+                    <path class="elementor-shape-fill"
+                        d="M16465 170c-3-5-1-10 4-10 6 0 11 5 11 10 0 6-2 10-4 10-3 0-8-4-11-10z"></path>
+                    <path class="elementor-shape-fill"
+                        d="M17005 170c3-5 22-10 41-10 21 0 33 4 29 10-3 6-22 10-41 10-21 0-33-4-29-10z"></path>
+                    <path class="elementor-shape-fill"
+                        d="M1585 150c40-15 223-41 266-38l44 3-37 18c-28 15-65 19-165 21-70 2-119 0-108-4z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M3105 150c3-5 13-10 21-10s12 5 9 10c-3 6-13 10-21 10s-12-4-9-10z"></path>
+                    <path class="elementor-shape-fill"
+                        d="M10730 140c-23-7-23-8-3-9 12-1 25 4 28 9 3 6 5 10 3 9s-14-5-28-9z"></path>
+                    <path class="elementor-shape-fill" d="M10780 140c0-11 14-11 50 0 22 7 21 8-12 9-21 1-38-3-38-9z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M16710 120c0-5 21-12 48-15 26-4 79-13 119-21 84-16 153-18 153-4 0 6-8 10-18 10s-23 5-28 10c-6 6-55 13-110 16-54 2-114 7-131 9-18 2-33 0-33-5z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M1940 108c0-5 18-8 40-8s40 2 40 4-18 6-40 8-40 0-40-4z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M18240 116c0-9 30-14 35-6 4 6-3 10-14 10-12 0-21-2-21-4z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M2035 100c3-5 16-10 28-9 21 0 21 1 2 9-28 12-37 12-30 0z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M10533 90c-50-4-88-11-95-19-11-11 12-13 137-7 164 7 225 14 225 27 0 9-120 8-267-1z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M10826 92c-3-5 8-6 25-4 16 2 29 6 29 8 0 8-49 4-54-4z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M10943 73c9-2 23-2 30 0 6 3-1 5-18 5-16 0-22-2-12-5z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M17086 69c3-5 21-9 41-9 45 0 40 6-9 13-21 3-35 1-32-4z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M17185 60c27-12 43-12 25 0-8 5-22 9-30 9-10 0-8-3 5-9z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M1923 53c9-2 25-2 35 0 9 3 1 5-18 5s-27-2-17-5z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M1990 52c0-18 282-40 341-27 34 8 34 8 9 17-35 13-350 22-350 10z"></path>
+                    <path class="elementor-shape-fill" d="M17063 13c9-2 25-2 35 0 9 3 1 5-18 5s-27-2-17-5z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M17130 11c0-5 80-9 178-9 122 0 165 2 137 8-53 12-315 12-315 1z"></path>
+                    <path class="elementor-shape-fill" d="M16958 3c7-3 16-2 19 1 4 3-2 6-13 5-11 0-14-3-6-6z">
+                    </path>
+                </g>
+            </g>
+        </svg>
+    </div>
+
+    <div style="min-width: 100%; background-color: #f2eaea;">
+        <section style="  position: relative;" class="customers container" id="customers">
+            <div class="customer-top" style="padding-top: 40px;">
+                <div class="customer-top-left">
+                    <h2>Review and Awards</h2>
+                    <h1>Customers Reviews</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab tempora placeat dolorem illum vero.
+                        Quos
+                        recusandae unde, ab in aliquam.</p>
+                    <div class="icon-user" style="margin: 20px 0 5px 0;">
+                        <img class="img-user1"
+                            src="./assest/Homepage/avatar1-pp1duv14afvyvx77ady6c2t8zu2rrkjx7i055aipmk.jpg" alt="">
+                        <img class="img-user2" style="transform: translateX(-50%);"
+                            src="./assest/Homepage/avatar2-pp1dus7lpxs3x3baquqamliv7ogo4h8q741opgmw58.jpg" alt="">
+                        <img class="img-user3" style="transform: translateX(-100%);"
+                            src="./assest/Homepage/avatar3-pp1duog8ylmymngrct3scmh0u4z79otsulfqscsgu4.jpg" alt="">
+                    </div>
+                    <div style="display: flex; align-items: center; justify-content: flex-start;">
+                        <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                        <h3>4.9 <span>(5000 reviews)</span></h3>
+                    </div>
+                </div>
+                <div class="customer-top-right">
+                    <div class="user-side" style="position: relative; width: 100%; height: 250px;">
+                        <div class="navi">
+                            <div class="btn-icon">
+                                <i style="transform: rotate(180deg);" class="fa-solid fa-angle-right"></i>
+                            </div>
+                            <div class="btn-icon">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="content-slide">
+                                <div style="width: 25%;" class="user-info">
+                                    <img src="./assest/Homepage/avatar1.jpg" alt="">
+                                    <h3>John Alvy</h3>
+                                    <span>Engineer</span>
+                                </div>
+                                <div style="width: 75%; padding-bottom: 30px;" class="user-feed-back">
+                                    <div>
+                                        <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                                        <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                                        <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                                        <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                                        <img width="10px" height="10px" src="./assest/Homepage/star.svg" alt="">
+                                    </div>
+                                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quia nisi
+                                        laudantium pariatur excepturi, ipsum necessitatibus. Obcaecati voluptates sunt
+                                        ab
+                                        iste ?"</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="customer-bot">
+                <div><img src="./assest/Homepage/gallery_1-pp2o06w1rvxzx2po8js73sfc7t6dy1p9jjo7tu4090.jpg" alt=""></div>
+                <div><img src="./assest/Homepage/gallery_2-pp2nzzdc97npc70lggj6jubngq7g8gveuigbzmf5ms.jpg" alt=""></div>
+                <div><img src="./assest/Homepage/gallery_3-ppyae4zfql51wy5cg7z7v4yvledk9n6vdcnfc1rps4.jpg" alt=""></div>
+                <div><img src="./assest/Homepage/gallery_4-pp2nzje3111tutnt1rmivgctd6e7lm3z4bd2tx2ukk.jpg" alt=""></div>
+                <div><img src="./assest/Homepage/gallery_5-pp2nzct7p6stljxd46s4w00l7han3qduresogzcls4.jpg" alt=""></div>
+            </div>
+        </section>
+    </div>
+
+    <div class="elementor-shape elementor-shape-top" data-negative="false">
+        <svg style="background-color: #f2eaea; color:#ffffff" xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid meet" viewBox="0 0 1920 70">
+            <g fill="currentColor" class="nc-icon-wrapper">
+                <g transform="matrix(.1 0 0 -.1 0 70)" fill="currentColor" stroke="none">
+                    <path class="elementor-shape-fill"
+                        d="M0 510V319l48 27c26 15 51 31 56 36 6 4 19 8 31 8 11 0 31 7 44 16 27 19 103 14 186-12 120-38 395-61 395-33 0 6-7 9-15 5-8-3-15 0-15 5 0 7 10 9 28 5 15-4 47-9 72-12s90-16 145-28c91-21 180-26 202-13 5 3 63-5 129-19 128-26 281-54 302-54 6 0 12 7 12 15 0 9-10 15-26 15-34 0-188 29-244 46-39 12-41 13-10 10 80-11 167-27 194-36 16-6 47-10 70-10 42-1 145-22 166-35 6-4 48-9 93-11 45-3 102-9 127-14 25-6 104-12 175-15 72-4 141-8 155-10 219-36 548-51 572-27 8 8 3 13-18 18-17 4-29 3-31-3s-14-8-25-5c-21 5-21 6-2 12 15 6 13 9-16 14-32 6-257 28-425 42-38 4-77 10-85 15-9 6 95 7 259 4 151-4 278-8 283-11 7-4 191-5 277-1 19 1 36 7 38 13 4 11-80 10-131-1-10-2-42 0-70 5-28 6-78 12-111 14-50 3-215 19-315 30-71 9-120 19-120 26 0 5 9 6 20 3s20 0 20 5c0 7 22 11 56 11 31-1 51-5 45-9-9-5-8-9 4-14 9-3 21-4 25-1 5 3 43 8 86 11s82 7 86 10 8 1 8-4c0-9 19-12 85-12 174-1 221-3 223-11 2-5 10-5 21 0 9 5 61 6 116 3 55-4 145-6 200-4s116 3 136 3c25 1 46 9 70 30 19 16 43 32 54 35 11 4 33 17 48 30 16 13 38 24 49 24 17 0 124 23 213 46 16 4 17 3 5-5-31-21 3-22 112-3 62 11 127 17 144 15 17-3 76 2 130 10s106 15 114 16c8 0 53 7 100 16 47 8 134 18 194 21s118 10 128 15c12 7 18 6 18-1 0-6 8-9 18-6 37 11 261 28 430 32 97 3 265 8 372 11 277 10 520 9 704 0 116-7 156-6 151 2-4 8 5 10 32 7 149-20 290-28 377-22 56 3 125 2 153-3 29-6 74-13 100-17 26-3 114-28 194-55s152-49 158-49c7 0 19-7 27-15 11-11 35-15 82-14 51 1 61 3 42 10-18 6-12 7 25 4 28-2 118-9 200-15 83-6 173-15 200-21 74-14 166-28 300-43 104-13 122-13 136 0 8 8 23 14 33 14 9 0 28 7 41 16 19 12 28 14 38 5 8-6 16-8 19-5s39 1 79-5c41-6 118-13 172-17 55-3 125-13 158-24 32-10 62-14 64-9 6 9 207 5 224-5 5-4 12-2 15 3s47 9 98 10 102 4 114 7 32 1 43-6c14-7 21-7 21 0 0 6 44 9 123 8 67-1 128 1 135 6 7 4 19 2 27-4 9-8 15-8 15-2 0 11 154 8 190-3 23-7 48 4 32 14-6 3 12 7 39 8 26 1 51-2 54-7 4-6 16-10 28-11 34-1-27-18-88-24-27-3-84-10-126-15-165-22-309-33-414-31-73 1-107-1-100-8 6-5 53-11 105-11 111-2 408 9 431 16 9 2 28 0 43-5 14-6 26-7 26-3s59 8 130 9c72 1 130-2 130-6 0-5-35-12-77-16-43-4-91-9-108-10-63-6-163-15-247-21-54-3-93-11-105-21-10-8-13-12-6-9 6 4 14 2 18-4 3-5-3-10-14-10-12 0-21 5-21 10 0 6-9 10-21 10-11 0-17-5-14-10s0-10-7-11c-7 0-5-4 5-7 19-8 316-6 357 2 14 2 61 9 105 15s91 13 105 16c14 2 86 7 160 10 74 2 151 9 170 15 19 5 66 10 105 10 38 1 88 7 109 15 22 7 71 19 110 25s96 16 126 22 68 12 85 15c16 2 52 8 78 14s51 9 54 6c7-7-47-20-167-41-136-24-140-25-140-38 0-7 14-9 43-4 103 15 168 27 252 45 49 10 93 17 98 14 4-2 14 1 22 7 12 10 18 10 30 0s31-8 97 13c81 25 196 40 513 69 249 23 2601 17 3050-8 125-7 390-32 470-44 78-13 80-13 66 4-15 18-100 32-321 52-283 25-664 33-1925 39-654 3-1210 9-1235 12l-45 7 45 7c71 12 433 9 447-3 9-7 13-7 13 1 0 14 1144 15 1800 1 600-13 1172-43 1126-60-14-5-3-10 39-18 32-7 69-12 82-12s23-4 23-10c0-5-7-10-15-10s-15-4-15-9c0-10 15-16 70-26 58-11 70-16 70-28 0-7 10-14 23-15s70-13 127-26c56-14 107-23 111-20 5 2 41 5 81 5 64 1 128-10 371-61 65-13 77-13 77 5 0 9-9 15-22 15-26 0-170 29-177 36-8 8 44 4 79-7 19-5 69-14 110-19 107-12 141-18 154-29 6-5 56-13 110-16 54-4 109-10 121-15 28-10 122-16 131-8 3 4 16 4 28 0 11-4 48-7 81-6s65-2 70-7c6-4 20-7 30-5 11 2 31-1 45-5s48-11 75-14c88-10 392-18 421-10l29 7-30 12c-16 7-31 9-33 4-2-4-20-7-40-7l-37 2 35 6c49 9 21 24-42 22-28 0-47 3-43 9 3 5-5 7-17 4-37-7-425 33-414 43 5 5 138 4 366-3 277-9 480-10 492-3 25 16 0 19-78 11-55-6-99-5-146 4-36 7-81 12-100 12-89-2-381 36-407 53-14 9-14 10 1 5 10-3 20-1 23 5 9 13 87 8 102-7 8-8 26-9 55-4 68 12 169 19 164 11-3-3 61-7 142-8s160-6 175-12c20-8 26-8 22 0-5 7 23 8 92 4 109-7 258-8 317-1 21 3 48 1 60-4 13-5 37-3 61 6 21 7 41 11 45 9 3-2 24 1 46 6 21 5 92 12 158 14 65 3 126 10 135 14 10 6 24 5 34 0 16-9 17 3 17 171v180H0V510zm6547 124c-3-3-12-4-19-1-8 3-5 6 6 6 11 1 17-2 13-5zm5713-131c0-5-44-9-98-9-71-1-85 0-52 6 63 10 150 11 150 3zm-4597-20c-7-2-19-2-25 0-7 3-2 5 12 5s19-2 13-5zm8184-39c-3-3-12-4-19-1-8 3-5 6 6 6 11 1 17-2 13-5zm46-1c-7-2-19-2-25 0-7 3-2 5 12 5s19-2 13-5zm-4353-63c-8-5-24-9-35-9-16 1-16 2 5 9 35 11 48 11 30 0zM1285 340c13-5 14-9 5-9-8 0-24 4-35 9-13 5-14 9-5 9 8 0 24-4 35-9zm9344-23c-10-9-109-17-109-9 0 5 26 10 57 11s55 0 52-2zm5806-17c7-12-2-12-30 0-19 8-19 9 2 9 12 1 25-3 28-9zm84-6c17-4 31-11 31-16 0-6-10-7-22-3-13 3-36 10-53 15-22 6-25 8-9 9 12 1 36-2 53-5zM2270 270c0-11-21-11-65 0-27 7-25 8 18 9 26 0 47-3 47-9zm8093-27c-7-2-19-2-25 0-7 3-2 5 12 5s19-2 13-5zm-90-10c-7-2-21-2-30 0-10 3-4 5 12 5 17 0 24-2 18-5zm7131-3c-6-6-21-6-39-1-30 9-30 9 10 10 25 1 36-2 29-9zm-7326-7c-10-2-26-2-35 0-10 3-2 5 17 5s27-2 18-5zm-7615-20c-7-2-21-2-30 0-10 3-4 5 12 5 17 0 24-2 18-5zm84-9c-3-3-12-4-19-1-8 3-5 6 6 6 11 1 17-2 13-5zm213-4c0-5-15-9-32-9l-33 1 30 8c17 4 31 8 33 9 1 0 2-3 2-9zm14843-27c-7-2-19-2-25 0-7 3-2 5 12 5s19-2 13-5zm292-13c-3-5-16-10-28-9-21 0-21 1-2 9 28 12 37 12 30 0z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M5647 614c-1-1-32-4-68-8-36-3-79-8-95-11s-112-9-213-15c-100-6-204-15-230-20-25-5-66-11-91-14-81-8-124-18-109-26 15-9 318 3 498 20 63 6 281 10 485 9s421-1 481 1c61 2 133 4 162 4 83 1 46 15-67 25-284 26-380 32-558 34-107 1-194 1-195 1z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M12805 375c96-18 97-18 120-16 17 3 17 4-5 11-24 8-24 8 6 9 16 1 34-3 40-8 12-12 752-22 779-11 12 5-39 8-125 8-80 0-257 2-395 4-175 2-93 4 275 8l525 5-645 2c-559 1-636-1-575-12z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M8425 375c21-10 156-21 161-13 3 4-12 8-34 8s-61 2-88 5-44 3-39 0z"></path>
+                    <path class="elementor-shape-fill" d="M13835 340c102-11 175-11 150 0-11 5-65 8-120 8l-100-1 70-7z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M14125 340l-30-8 33-1c17 0 32 4 32 9 0 6-1 9-2 9-2-1-16-5-33-9z"></path>
+                    <path class="elementor-shape-fill"
+                        d="M770 331c0-8 85-22 130-20 20 1 17 4-15 14-46 15-115 19-115 6z"></path>
+                    <path class="elementor-shape-fill" d="M15748 313c12-2 32-2 45 0 12 2 2 4-23 4s-35-2-22-4z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M15914 293c8-8 23-11 96-18 54-5 54-5 25 9-30 15-135 22-121 9z"></path>
+                    <path class="elementor-shape-fill" d="M11525 260c-7-12 2-12 30 0 19 8 19 9-2 9-12 1-25-3-28-9z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M11490 250c-9-6-10-10-3-10 6 0 15 5 18 10 8 12 4 12-15 0z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M10850 241c0-8 79-3 89 5 2 2-17 4-42 4-26 0-47-4-47-9z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M1220 226c0-9 40-13 46-5 3 5-6 9-20 9s-26-2-26-4z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M10770 219c0-5 5-7 10-4 6 3 10 8 10 11 0 2-4 4-10 4-5 0-10-5-10-11z"></path>
+                    <path class="elementor-shape-fill" d="M1864 209c-13-5-3-8 29-8 26-1 47 1 47 3 0 8-58 12-76 5z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M1328 203c7-3 16-2 19 1 4 3-2 6-13 5-11 0-14-3-6-6z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M9655 190c-3-5 3-10 14-10 12 0 21 5 21 10 0 6-6 10-14 10s-18-4-21-10z"></path>
+                    <path class="elementor-shape-fill"
+                        d="M11005 189c-64-7-124-33-100-42 19-8 296 30 307 41 9 9-135 10-207 1z"></path>
+                    <path class="elementor-shape-fill" d="M16360 190c0-5 12-10 28-9 24 0 25 1 7 9-27 12-35 12-35 0z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M2005 180c3-5 8-10 11-10 2 0 4 5 4 10 0 6-5 10-11 10-5 0-7-4-4-10z"></path>
+                    <path class="elementor-shape-fill"
+                        d="M16465 170c-3-5-1-10 4-10 6 0 11 5 11 10 0 6-2 10-4 10-3 0-8-4-11-10z"></path>
+                    <path class="elementor-shape-fill"
+                        d="M17005 170c3-5 22-10 41-10 21 0 33 4 29 10-3 6-22 10-41 10-21 0-33-4-29-10z"></path>
+                    <path class="elementor-shape-fill"
+                        d="M1585 150c40-15 223-41 266-38l44 3-37 18c-28 15-65 19-165 21-70 2-119 0-108-4z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M3105 150c3-5 13-10 21-10s12 5 9 10c-3 6-13 10-21 10s-12-4-9-10z"></path>
+                    <path class="elementor-shape-fill"
+                        d="M10730 140c-23-7-23-8-3-9 12-1 25 4 28 9 3 6 5 10 3 9s-14-5-28-9z"></path>
+                    <path class="elementor-shape-fill" d="M10780 140c0-11 14-11 50 0 22 7 21 8-12 9-21 1-38-3-38-9z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M16710 120c0-5 21-12 48-15 26-4 79-13 119-21 84-16 153-18 153-4 0 6-8 10-18 10s-23 5-28 10c-6 6-55 13-110 16-54 2-114 7-131 9-18 2-33 0-33-5z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M1940 108c0-5 18-8 40-8s40 2 40 4-18 6-40 8-40 0-40-4z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M18240 116c0-9 30-14 35-6 4 6-3 10-14 10-12 0-21-2-21-4z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M2035 100c3-5 16-10 28-9 21 0 21 1 2 9-28 12-37 12-30 0z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M10533 90c-50-4-88-11-95-19-11-11 12-13 137-7 164 7 225 14 225 27 0 9-120 8-267-1z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M10826 92c-3-5 8-6 25-4 16 2 29 6 29 8 0 8-49 4-54-4z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M10943 73c9-2 23-2 30 0 6 3-1 5-18 5-16 0-22-2-12-5z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M17086 69c3-5 21-9 41-9 45 0 40 6-9 13-21 3-35 1-32-4z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M17185 60c27-12 43-12 25 0-8 5-22 9-30 9-10 0-8-3 5-9z">
+                    </path>
+                    <path class="elementor-shape-fill" d="M1923 53c9-2 25-2 35 0 9 3 1 5-18 5s-27-2-17-5z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M1990 52c0-18 282-40 341-27 34 8 34 8 9 17-35 13-350 22-350 10z"></path>
+                    <path class="elementor-shape-fill" d="M17063 13c9-2 25-2 35 0 9 3 1 5-18 5s-27-2-17-5z">
+                    </path>
+                    <path class="elementor-shape-fill"
+                        d="M17130 11c0-5 80-9 178-9 122 0 165 2 137 8-53 12-315 12-315 1z"></path>
+                    <path class="elementor-shape-fill" d="M16958 3c7-3 16-2 19 1 4 3-2 6-13 5-11 0-14-3-6-6z">
+                    </path>
+                </g>
+            </g>
+        </svg>
+    </div>
+
+    <section id="blog" class="from-blog container" style="padding-bottom: 50px;">
+        <div style="padding-top: 50px;" class="top-shop-pet">
+            <div class="left-top-pet">
+                <h2>Latest From Blog</h2>
+                <img class="img-left-pet1" src="./assest/Homepage/Vector-1.png" alt="">
+                <img class="img-left-pet2" src="./assest/Homepage/Vector-2.png" alt="">
+            </div>
+            <div class="right-top-pet">
+                <div>
+                    <span style="font-weight: 700;">View All Posts</span>
+                </div>
+                <div style="margin-left: 10px;" class="btn-icon">
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>
+        </div>
+        <div class="from-blog-bot" style="display: flex; justify-content:space-between; position: relative;">
+            <div class="blog-bot-col" style="padding: 15px 0 30px 0;">
+                <div class="col-top">
+                    <img style="border-radius: 5px;" width="100%" src="./assest/Homepage/blog-1-820x500.jpg" alt="">
+                </div>
+                <div class="col-bot">
+                    <div class="blog-icon" style="display: flex; padding: 10px 0;">
+                        <div style="display:flex; margin-right: 5px; align-items: center;">
+                            <i class="fa-solid fa-user"></i>
+                            <span style="margin: 0 5px;">By
+                            </span>
+                            <h4>Admin</h4>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <span> June 3, 2022</span>
+                        </div>
+                    </div>
+                    <h3>How to Choose the Right Bully Stick for Your Dog</h3>
+                    <p>Below is an except of porch.com's article 'Moving With Pets? We Have the Experts' Advice to Do It
+                        Properly". For...</p>
+                    <div class="btn-now flex-center">
+                        <button style="font-weight: 700; margin-right:5px;" class="btn">Read now</button>
+                        <i class="btn-icon fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-bot-col" style="padding: 15px 0 30px 0;">
+                <div class="col-top">
+                    <img style="border-radius: 5px;" width="100%" src="./assest/Homepage/blog-4-820x500.jpg" alt="">
+                </div>
+                <div class="col-bot">
+                    <div class="blog-icon" style="display: flex; padding: 10px 0;">
+                        <div style="display:flex; margin-right: 5px; align-items: center;">
+                            <i class="fa-solid fa-user"></i>
+                            <span style="margin: 0 5px;">By
+                            </span>
+                            <h4>Admin</h4>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <span> June 3, 2022</span>
+                        </div>
+                    </div>
+                    <h3>Saving Lives: Animal House Shelter Ans Downtown Pet Supply</h3>
+                    <p>Below is an except of porch.com's article 'Moving With Pets? We Have the Experts' Advice to Do It
+                        Properly". For...</p>
+                    <div class="btn-now flex-center">
+                        <button style="font-weight: 700; margin-right:5px;" class="btn">Read now</button>
+                        <i class="btn-icon fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-bot-col" style="padding: 15px 0 30px 0;">
+                <div class="col-top">
+                    <img style="border-radius: 5px;" width="100%" src="./assest/Homepage/blog-8-820x500.jpg" alt="">
+                </div>
+                <div class="col-bot">
+                    <div class="blog-icon" style="display: flex; padding: 10px 0;">
+                        <div style="display:flex; margin-right: 5px; align-items: center;">
+                            <i class="fa-solid fa-user"></i>
+                            <span style="margin: 0 5px;">By
+                            </span>
+                            <h4>Admin</h4>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <span> June 3, 2022</span>
+                        </div>
+                    </div>
+                    <h3>Himalayan Yak Chews: 11 Benefits You Need To Know</h3>
+                    <p>Below is an except of porch.com's article 'Moving With Pets? We Have the Experts' Advice to Do It
+                        Properly". For...</p>
+                    <div class="btn-now flex-center">
+                        <button style="font-weight: 700; margin-right:5px;" class="btn">Read now</button>
+                        <i class="btn-icon fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="new1 container"></div>
+
+    <footer id="footer" class="container">
+        <div class="wrap-footer">
+            <div class="top-footer" style="position: relative; padding-bottom: 50px;">
+                <div class="footer-col">
+                    <div class="block-long first-block">
+                        <img width="100px" class="logo-link" src="./assest/Homepage/logo.svg" alt="">
+                        <p>We know pets are like family, so we are committed to providing the highest-quality products
+                            that you can trust</p>
+                        <div>
+                            <i class="fa-solid fa-phone"></i>
+                            <span>Hotline Order</span>
+                        </div>
+                        <h2>(877) 834 1434</h2>
+                        <ul class="footer-icon flex-center" style="justify-content: flex-start;">
+                            <li><i class="fa-brands fa-facebook"></i></li>
+                            <li><i class="fa-brands fa-twitter"></i></li>
+                            <li><i class="fa-brands fa-instagram"></i></li>
+                            <li><i class="fa-brands fa-pinterest"></i></li>
+                        </ul>
+                    </div>
+                    <div class="block-short">
+                        <h2>USEFUL LINKS</h2>
+                        <span>New Products</span>
+                        <span>Best Seller</span>
+                        <span>Bundle & Save</span>
+                        <span>Online Gift Card</span>
+                        <span>Discount</span>
+                        <span>Pet Store Locator</span>
+                    </div>
+                    <div class="block-short">
+                        <h2>MY ACCOUNT</h2>
+                        <span>My Profile</span>
+                        <span>My Order History</span>
+                        <span>My Wish List</span>
+                        <span>Order Tracking</span>
+                        <span>Shipping Info</span>
+                        <span>Shopping Cart</span>
+                    </div>
+                    <div class="block-short">
+                        <h2>COMPANY</h2>
+                        <span>About us</span>
+                        <span>Careers</span>
+                        <span>Blog</span>
+                        <span>Affiliate</span>
+                        <span>Contact Us</span>
+                        <span>Gift Cards</span>
+                    </div>
+                    <div style="max-width: 280px;" class="block-long second-block">
+                        <h2>NEWSLETTER</h2>
+                        <p>Subscrible & get <span>10%</span> discount. Get E-mail updates about our latest shop and
+                            <span>special offers.</span></p>
+                        <div>
+                            <div class="search-input email">
+                                <input type="text" placeholder="Enter your email...">
+                                <button class="btn-search"><i class="fa-solid fa-envelope-circle-check"></i></button>
+                            </div>
+                        </div>
+                        <div class="download">
+                            <i class="fa-solid fa-mobile-screen"></i>
+                            <span>Download Our App</span>
+                        </div>
+                        <div class="download-icon">
+                            <img src="./assest/Homepage/App-Store.jpg" alt="">
+                            <img src="./assest/Homepage/Google-Play.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bot-footer">
+                <div class="bot-col-first">
+                    <p>Copyright © 2022 <span>Ziggy.</span> All rights reserved</p>
+                </div>
+                <div class="bot-col">
+                    <div><img width="300px" src="./assest/Homepage/payment.png" alt=""></div>
+                </div>
+                <div class="bot-col-last">
+                    <span>Privacy & Cookie Policy</span>
+                    <span>Terms of Service</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./js/main.js"></script>
 </body>
+
 </html>
