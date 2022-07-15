@@ -157,13 +157,11 @@ html{
 }
 
 
-#slider{
+.slider{
     position: relative;
-    background: url(../img/Slider/slider1.jpg) top center / cover no-repeat;
-    padding-top: 50%;
     margin-top: 46px;
 }
-#slider .text-content{
+.slider .text-content{
     position: absolute;
     bottom: 47px;
     color: #fff;
@@ -173,12 +171,12 @@ html{
     text-align: center;
 }
 
-#slider .text-heading{
+.slider .text-heading{
     font-weight: 500;
     font-size: 24px;
 }
 
-#slider .text-description{
+.slider .text-description{
     font-size: 15px;
     margin-top: 25px;
     text-shadow: 0 0 1px black;

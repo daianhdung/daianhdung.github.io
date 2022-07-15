@@ -46,7 +46,22 @@
         
         </div>
 
-        <div id="slider">
+        <div class="slider">
+            <img style="width: 100%; vertical-align: middle;" src="./assets/img/Slider/slider1.jpg" alt="">
+            <div class="text-content">
+                <h2 class="text-heading">New York</h2>
+                <div class="text-description">We had the best time playing at Venice Beach!</div>
+            </div>
+        </div>
+        <div class="slider">
+            <img style="width: 100%; vertical-align: middle;" src="./assets/img/Slider/slider2.jpg" alt="">
+            <div class="text-content">
+                <h2 class="text-heading">New York</h2>
+                <div class="text-description">We had the best time playing at Venice Beach!</div>
+            </div>
+        </div>
+        <div class="slider">
+            <img style="width: 100%; vertical-align: middle;" src="./assets/img/Slider/slider3.jpg" alt="">
             <div class="text-content">
                 <h2 class="text-heading">New York</h2>
                 <div class="text-description">We had the best time playing at Venice Beach!</div>
@@ -283,6 +298,23 @@
                 }
             }
         }
+
+        //tự thay đổi ảnh sau 4s
+
+        var x = document.getElementsByClassName('slider');
+        var myIndex = 0;
+        autoImg();
+        function autoImg(){
+
+            for(var i = 0 ; i < x.length; i++){
+                x[i].style.display = "none"
+            }
+            myIndex++;
+            if(myIndex > x.length){myIndex = 1}
+            x[myIndex - 1].style.display = 'block';
+            setTimeout(autoImg, 4000);
+        }
+
 
         
 
